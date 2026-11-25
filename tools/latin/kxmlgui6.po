@@ -1,0 +1,181 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: la\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "&Bookmarks"
+msgstr "&Signacula"
+
+msgid "&Edit"
+msgstr "&Emendatio"
+
+msgid "&File"
+msgstr "&Fasciculus"
+
+msgid "&Game"
+msgstr "&Ludus"
+
+msgid "&Go"
+msgstr "&Iter"
+
+msgid "&Help"
+msgstr "&Auxilium"
+
+msgid "&Settings"
+msgstr "&Optiones"
+
+msgid "&Tools"
+msgstr "&Instrumenta"
+
+msgid "&View"
+msgstr "&Aspectus"
+
+msgctxt "@action:button"
+msgid "Add Fallback Language"
+msgstr "Adde linguam subsidiariam"
+
+msgctxt "@action:button"
+msgid "Clear"
+msgstr "Purga"
+
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Exscribe"
+
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "Dele"
+
+msgctxt "@action:button"
+msgid "More Actions"
+msgstr "Plures actiones"
+
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Remove"
+
+msgctxt "@item:inmenu"
+msgid "Icons Only"
+msgstr "Icones tantum"
+
+msgctxt "@item:inmenu"
+msgid "Text Alongside Icons"
+msgstr "Textus iuxta icones"
+
+msgctxt "@item:inmenu"
+msgid "Text Only"
+msgstr "Textus tantum"
+
+msgctxt "@item:inmenu"
+msgid "Text Under Icons"
+msgstr "Textus sub iconibus"
+
+msgctxt "@item:inmenu Icon size"
+msgid "Default"
+msgstr "Solitum"
+
+msgctxt "@title:tab"
+msgid "About"
+msgstr "De"
+
+msgctxt "@title:tab"
+msgid "Thanks To"
+msgstr "Gratias"
+
+msgctxt "@title:tab"
+msgid "Translation"
+msgstr "Translatio"
+
+msgctxt "@title:window"
+msgid "Configure Language"
+msgstr "Configura linguam"
+
+msgctxt "@title:window"
+msgid "Configure Toolbars"
+msgstr "Configura taenias"
+
+msgid "Action"
+msgstr "Actio"
+
+msgid "Description"
+msgstr "Descriptio"
+
+msgid "Fallback language:"
+msgstr "Lingua subsidiaria:"
+
+msgid "Filter"
+msgstr "Cola"
+
+msgid "Find Action…"
+msgstr "Quaere actionem…"
+
+msgid "Global"
+msgstr "Universale"
+
+msgid "Icon Size"
+msgstr "Magnitudo iconum"
+
+msgid "Lock Toolbar Positions"
+msgstr "Fige taenias"
+
+msgid "Main Toolbar"
+msgstr "Taenia principalis"
+
+msgid "Name for new scheme:"
+msgstr "Nomen novi schematis:"
+
+msgctxt "No shortcut defined"
+msgid "None"
+msgstr "Nihil"
+
+msgid "Primary language:"
+msgstr "Lingua prima:"
+
+msgid "Redo"
+msgstr "Iterum fac"
+
+msgid "Reset"
+msgstr "Restitue"
+
+msgid "Shortcut"
+msgstr "Compendium"
+
+msgid "Shortcuts"
+msgstr "Compendia"
+
+msgid "Text Position"
+msgstr "Locus textus"
+
+msgid "Toolbars Shown"
+msgstr "Taeniae ostensae"
+
+msgid "Undo"
+msgstr "Revoca"
+
+msgctxt "Version version-number"
+msgid "Version %1"
+msgstr "Versio %1"
+
+msgid "Version:"
+msgstr "Versio:"
+
+msgctxt "header for an applications shortcut list"
+msgid "Shortcuts for %1"
+msgstr "Compendia pro %1"
+
+msgctxt "toolbar position string"
+msgid "Bottom"
+msgstr "Infra"
+
+msgctxt "toolbar position string"
+msgid "Left"
+msgstr "Sinistra"
+
+msgctxt "toolbar position string"
+msgid "Right"
+msgstr "Dextra"
+
+msgctxt "toolbar position string"
+msgid "Top"
+msgstr "Supra"

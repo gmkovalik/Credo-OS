@@ -1,0 +1,122 @@
+#!/usr/bin/python3
+"""Privileged helper for Credo Center, run through pkexec (polkit: org.credo.helper).
+
+Every argument is validated; nothing user-supplied reaches a shell.
+
+  credo-helper battery START STOP | battery off
+  credo-helper apply-boot
+  credo-helper boot-theme LOGO VARIANT
+  credo-helper enable-rpmfusion
+  credo-helper enable-flathub
+"""
+import configparser
+import os
+import pathlib
+import subprocess
+import sys
+
+sys.path.insert(0, "/usr/lib/credo")
+
+CONF = pathlib.Path("/etc/credo/thinkpad.conf")
+PS = pathlib.Path("/sys/class/power_supply")
+
+
+def die(msg):
+    print(msg, file=sys.stderr)
+    sys.exit(1)
+
+
+def load():
+    cp = configparser.ConfigParser()
+    cp.read(CONF)
+    if not cp.has_section("battery"):
+        cp.add_section("battery")
+    return cp
+
+
+def write_thresholds(start, stop):
+    for bat in sorted(PS.glob("BAT*")):
+        s, e = bat / "charge_control_start_threshold", bat / "charge_control_end_threshold"
+        if not e.exists():
+            continue
+        # The kernel rejects start >= end, so order the writes against the current values.
+        try:
+            cur_stop = int(e.read_text())
+        except (OSError, ValueError):
+            cur_stop = 100
+        order = [(e, stop), (s, start)] if start >= cur_stop else [(s, start), (e, stop)]
+        for path, value in order:
+            if path.exists():
+                path.write_text(str(value))
+
+
+def cmd_battery(args):
+    cp = load()
+    if args == ["off"]:
+        cp["battery"]["enabled"] = "false"
+        write_thresholds(0, 100)
+    else:
+        if len(args) != 2 or not all(a.isdigit() for a in args):
+            die("usage: battery START STOP")
+        start, stop = int(args[0]), int(args[1])
+        if not (0 <= start < stop <= 100 and stop >= 50):
+            die("need 0 <= START < STOP <= 100 and STOP >= 50")
+        cp["battery"].update(enabled="true", start=str(start), stop=str(stop))
+        write_thresholds(start, stop)
+    CONF.parent.mkdir(parents=True, exist_ok=True)
+    with open(CONF, "w") as f:
+        cp.write(f)
+
+
+def cmd_apply_boot():
+    s = load()["battery"]
+    if s.get("enabled", "true") == "true":
+        write_thresholds(int(s.get("start", 75)), int(s.get("stop", 90)))
+
+
+def cmd_boot_theme(args):
+    from credo import palettes, theme
+    if len(args) != 2 or args[0] not in palettes.LOGOS or args[1] not in palettes.VARIANTS:
+        die("usage: boot-theme LOGO VARIANT")
+    variant = "monastic" if args[1] == "liturgical" else args[1]
+    theme.system_boot(args[0], variant, rebuild_initrd=True)
+
+
+def cmd_rpmfusion():
+    ver = subprocess.run(["rpm", "-E", "%fedora"], capture_output=True, text=True, check=True).stdout.strip()
+    if not ver.isdigit():
+        die("cannot determine Fedora version")
+    urls = [f"https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-{ver}.noarch.rpm",
+            f"https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-{ver}.noarch.rpm"]
+    subprocess.run(["dnf", "-y", "install", *urls], check=True)
+    subprocess.run(["dnf", "-y", "swap", "ffmpeg-free", "ffmpeg", "--allowerasing"], check=False)
+    subprocess.run(["dnf", "-y", "install", "intel-media-driver"], check=False)
+
+
+def cmd_flathub():
+    subprocess.run(["flatpak", "remote-add", "--if-not-exists", "flathub",
+                    "https://dl.flathub.org/repo/flathub.flatpakrepo"], check=True)
+
+
+def main():
+    if os.geteuid() != 0:
+        die("credo-helper must run as root (via pkexec)")
+    if len(sys.argv) < 2:
+        die(__doc__)
+    cmd, args = sys.argv[1], sys.argv[2:]
+    if cmd == "battery":
+        cmd_battery(args)
+    elif cmd == "apply-boot":
+        cmd_apply_boot()
+    elif cmd == "boot-theme":
+        cmd_boot_theme(args)
+    elif cmd == "enable-rpmfusion":
+        cmd_rpmfusion()
+    elif cmd == "enable-flathub":
+        cmd_flathub()
+    else:
+        die(f"unknown command {cmd}")
+
+
+if __name__ == "__main__":
+    main()

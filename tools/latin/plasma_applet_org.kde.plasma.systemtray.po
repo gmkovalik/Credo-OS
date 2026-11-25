@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: la\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "@title:column"
+msgid "Entries"
+msgstr "Elementa"
+
+msgid "General"
+msgstr "Generalia"
+
+msgid "Show hidden icons"
+msgstr "Ostende icones occultas"
+
+msgid "Status and Notifications"
+msgstr "Status et nuntia"

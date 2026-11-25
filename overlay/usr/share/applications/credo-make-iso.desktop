@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Make Credo ISO
+Name[la]=Fac imaginem ISO
+GenericName=Build an installer of this system
+Comment=Build an installable Credo OS ISO with every Credo update on this computer; saved in Downloads
+Exec=credo-make-iso
+Icon=media-optical-burn
+Terminal=false
+Categories=System;
+Keywords=iso;installer;usb;build;image;backup;

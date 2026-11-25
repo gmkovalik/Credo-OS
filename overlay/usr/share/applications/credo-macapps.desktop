@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Mac Apps
+Name[la]=Applicationes Mac
+GenericName=Find Linux versions of Mac apps
+Comment=Install the Linux version or the closest equivalent of a Mac app; open a .dmg to look it up
+Exec=credo-center --macapps %f
+Icon=credo-macapps
+Categories=System;Settings;
+MimeType=application/x-apple-diskimage;application/x-applediskimage;
+Keywords=mac;macos;dmg;app;apple;darling;

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Application
+Name=Credo Console
+Name[la]=Consolatorium Credo
+GenericName=Terminal
+GenericName[la]=Terminale
+Comment=Command line with tabs, true color, scrollback search and today's feast
+Exec=credo-console
+Icon=credo-console
+Terminal=false
+StartupWMClass=credo-console
+Categories=System;TerminalEmulator;
+Keywords=terminal;console;shell;command;prompt;
+X-KDE-AuthorizeAction=shell_access
+Actions=new-window;
+
+[Desktop Action new-window]
+Name=New Window
+Name[la]=Nova fenestra
+Exec=credo-console

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Credo icon theme: video -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#422a84"/><stop offset="1" stop-color="#422a84"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b44f"/><stop offset="1" stop-color="#d9b44f"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eceef2"/><stop offset="1" stop-color="#eceef2"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    
+  </defs>
+  <rect x="50" y="62" width="412" height="412" rx="94" fill="#000" fill-opacity="0.22"/>
+  <rect x="50" y="46" width="412" height="412" rx="94" fill="url(#bg)"/>
+  
+  <rect x="112" y="150" width="288" height="210" rx="26" fill="#1b1430"/>
+  <g fill="#ffffff" fill-opacity="0.6"><rect x="126" y="160" width="30" height="16" rx="4"/><rect x="126" y="334" width="30" height="16" rx="4"/><rect x="178" y="160" width="30" height="16" rx="4"/><rect x="178" y="334" width="30" height="16" rx="4"/><rect x="230" y="160" width="30" height="16" rx="4"/><rect x="230" y="334" width="30" height="16" rx="4"/><rect x="282" y="160" width="30" height="16" rx="4"/><rect x="282" y="334" width="30" height="16" rx="4"/><rect x="334" y="160" width="30" height="16" rx="4"/><rect x="334" y="334" width="30" height="16" rx="4"/><rect x="386" y="160" width="30" height="16" rx="4"/><rect x="386" y="334" width="30" height="16" rx="4"/></g>
+  <path d="M226 206 L318 256 L226 306 Z" fill="#ffffff"/>
+</svg>

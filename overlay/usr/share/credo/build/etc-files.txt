@@ -1,0 +1,12 @@
+/etc/credo/defaults.conf
+/etc/credo/thinkpad.conf
+/etc/xdg/autostart/credo-session.desktop
+/etc/xdg/autostart/credo-welcome.desktop
+/etc/xdg/breezerc
+/etc/xdg/dolphinrc
+/etc/xdg/kcm-about-distrorc
+/etc/xdg/kdeglobals
+/etc/xdg/kwinrc
+/etc/xdg/kxkbrc
+/etc/xdg/plasmanotifyrc
+/etc/xdg/plasmarc

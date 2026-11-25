@@ -1,0 +1,5 @@
+[General]
+LogoPath=/usr/share/credo/logos/chirho.svg
+Name=Credo OS
+Variant=Fedora-based · KDE Plasma
+UseOSReleaseVersion=true

@@ -1,0 +1,110 @@
+#!/bin/bash
+# Build a Credo OS ISO from the Credo version installed on this computer (run as root, e.g. by the
+# "Make Credo ISO" app through pkexec). The ISO, its checksum and its package-licence list are put
+# in the user's Downloads folder.
+#
+#   make-iso --user NAME [--include-apps] [--public]
+#     --include-apps   also install the extra Fedora apps this user installed (dnf "user-installed")
+#     --public         public release: no personal photos (church wallpapers), Credo's own wallpaper
+set -euo pipefail
+USER_NAME=""; INCLUDE_APPS=0; PUBLIC=0
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --user) USER_NAME="$2"; shift 2 ;;
+    --include-apps) INCLUDE_APPS=1; shift ;;
+    --public) PUBLIC=1; shift ;;
+    *) echo "unknown option: $1" >&2; exit 2 ;;
+  esac
+done
+[ "$(id -u)" = 0 ] || { echo "Run as root (the app asks for your password)." >&2; exit 1; }
+[ -n "$USER_NAME" ] && id "$USER_NAME" >/dev/null 2>&1 || { echo "--user NAME is required." >&2; exit 2; }
+HOME_DIR=$(getent passwd "$USER_NAME" | cut -d: -f6)
+DL=$(sudo -u "$USER_NAME" xdg-user-dir DOWNLOAD 2>/dev/null || echo "$HOME_DIR/Downloads")
+KIT=/usr/share/credo/build
+WORK=/var/tmp/credo-iso
+REL=$(rpm -E %fedora)
+
+step() { printf '\n== %s\n' "$*"; }
+
+step "Checking space and network"
+mkdir -p "$WORK"
+FREE_GB=$(( $(df --output=avail -k "$WORK" | tail -1) / 1024 / 1024 ))
+[ "$FREE_GB" -ge 20 ] || { echo "Only ${FREE_GB} GB free in /var/tmp; at least 20 GB are needed." >&2; exit 1; }
+curl -fsI --max-time 15 https://mirrors.fedoraproject.org >/dev/null \
+  || { echo "No internet connection: the build downloads Fedora's packages." >&2; exit 1; }
+[ -f "$KIT/build/build.sh" ] || { echo "The Credo build kit ($KIT) is missing; update Credo OS." >&2; exit 1; }
+echo "   ${FREE_GB} GB free, Fedora $REL, user $USER_NAME"
+
+step "Collecting the installed Credo files"
+SRC="$WORK/src"
+rm -rf "$SRC"
+mkdir -p "$SRC/overlay"
+cp -r "$KIT/build" "$KIT/kickstart" "$SRC/"
+mkdir -p "$SRC/tools/assets" && cp -f "$KIT"/tools/assets/* "$SRC/tools/assets/" 2>/dev/null || true
+add() {  # copy existing paths (globs allowed) into the overlay, keeping their location
+  for p in "$@"; do
+    for f in $p; do
+      [ -e "$f" ] || continue
+      mkdir -p "$SRC/overlay$(dirname "$f")"
+      cp -a "$f" "$SRC/overlay$(dirname "$f")/"
+    done
+  done
+}
+add /usr/lib/credo /usr/libexec/credo '/usr/bin/credo-*' /usr/share/credo \
+    '/usr/share/plasma/plasmoids/org.credo.*' /usr/share/plasma/look-and-feel/org.credo.desktop \
+    /usr/share/plasma/desktoptheme/Credo '/usr/share/icons/Credo*' '/usr/share/aurorae/themes/Credo*' \
+    '/usr/share/themes/Credo*' '/usr/share/color-schemes/Credo*' '/usr/share/applications/credo-*' \
+    '/usr/share/wallpapers/Credo*' /usr/share/plymouth/themes/credo /usr/share/i18n/locales/la_VA \
+    /usr/share/locale/la /usr/share/doc/credo-os '/usr/lib/systemd/user/credo-*' \
+    '/usr/lib/systemd/system/credo-*' '/usr/share/polkit-1/actions/*credo*'
+# Credo's settings files in /etc (listed when the ISO was made; otherwise the known ones)
+ETC_LIST="$KIT/etc-files.txt"
+if [ -f "$ETC_LIST" ]; then
+  while read -r f; do add "$f"; done < "$ETC_LIST"
+else
+  add /etc/credo /etc/xdg/kdeglobals /etc/xdg/kwinrc /etc/xdg/plasmarc /etc/xdg/plasmanotifyrc \
+      /etc/xdg/dolphinrc /etc/xdg/breezerc /etc/xdg/autostart/credo-welcome.desktop
+fi
+rm -rf "$SRC/overlay/usr/lib/credo/credo/__pycache__"
+# The FSSP app is never part of the ISO (build.sh removes it too).
+echo "   $(find "$SRC/overlay" -type f | wc -l) files"
+
+if [ "$PUBLIC" = 1 ]; then
+  step "Public build: leaving out personal photos"
+  find "$SRC/overlay/usr/share/wallpapers" -mindepth 1 -maxdepth 1 -name 'Credo-*' -exec rm -rf {} +
+  sed -i 's|file:///usr/share/wallpapers/Credo-St-Peter-s-Basilica-st-peter-statue/|file:///usr/share/wallpapers/Credo/contents/images/2880x1800.png|' \
+    "$SRC/overlay/usr/share/plasma/look-and-feel/org.credo.desktop/contents/layouts/org.kde.plasma.desktop-layout.js" || true
+  sed -i 's/^wallpaper = false/wallpaper = true/' "$SRC/overlay/etc/credo/defaults.conf" 2>/dev/null || true
+fi
+
+if [ "$INCLUDE_APPS" = 1 ]; then
+  step "Adding the apps you installed"
+  dnf repoquery --userinstalled --qf '%{name}\n' 2>/dev/null | sort -u > "$WORK/user-apps.txt" || true
+  N=$(wc -l < "$WORK/user-apps.txt")
+  # insert before the final %end of the package list (missing ones are skipped by --ignoremissing)
+  awk -v list="$WORK/user-apps.txt" '
+    /^%end/ && !done { print "# ---------- apps installed on the computer this ISO was made from ----------";
+                       while ((getline l < list) > 0) print l; done = 1 }
+    { print }' "$SRC/kickstart/packages.ks" > "$WORK/packages.ks" && mv "$WORK/packages.ks" "$SRC/kickstart/packages.ks"
+  echo "   $N packages"
+fi
+
+step "Building the ISO (30-60 minutes; the computer stays awake)"
+OUT="$WORK/out"
+rm -rf "$OUT"
+mkdir -p "$OUT"
+CREDO_PUBLIC=$PUBLIC systemd-inhibit --what=sleep:idle --who="Credo ISO" --why="Building an ISO" \
+  bash "$SRC/build/build.sh" --releasever "$REL" --out "$OUT"
+
+step "Putting the ISO in Downloads"
+mkdir -p "$DL"
+STAMP=$(date +%Y-%m-%d)
+for f in "$OUT"/*; do
+  base=$(basename "$f")
+  dest="$DL/${base/Credo-OS-/Credo-OS-$STAMP-}"
+  mv -f "$f" "$dest"
+  chown "$USER_NAME": "$dest"
+done
+ls -lh "$DL"/Credo-OS-"$STAMP"-* 2>/dev/null
+echo
+echo "Done. The ISO is in $DL. Write it to a USB stick with Fedora Media Writer or 'Impression'."

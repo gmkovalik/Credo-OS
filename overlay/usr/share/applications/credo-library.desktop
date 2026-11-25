@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Catholic Library
+Name[la]=Bibliotheca Catholica
+Comment=Papal documents, writings of the saints, Roman Missal 1954 and Roman Catechism
+Exec=credo-library open /
+Icon=credo-library
+Categories=Education;Literature;
+Keywords=catholic;encyclical;pope;saint;missal;catechism;latin;

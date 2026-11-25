@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: la\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "@item:inlistbox custom date format"
+msgid "Custom"
+msgstr "Proprium"
+
+msgctxt "@label:listbox"
+msgid "Date format:"
+msgstr "Forma diei:"
+
+msgctxt "@option:check"
+msgid "Show week numbers"
+msgstr "Ostende numeros hebdomadum"
+
+msgid "Appearance"
+msgstr "Species"
+
+msgid "Calendar"
+msgstr "Calendarium"
+
+msgid "Copy to Clipboard"
+msgstr "Exscribe"
+
+msgid "Show date"
+msgstr "Ostende diem"
+
+msgid "Time Zones"
+msgstr "Zonae horariae"

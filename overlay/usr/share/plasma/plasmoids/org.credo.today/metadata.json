@@ -1,0 +1,16 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "Credo OS" }],
+        "Category": "Date and Time",
+        "Description": "Today's feast, saint, liturgical color and the next feast (1954 calendar)",
+        "Description[la]": "Festum hodiernum, sanctus, color liturgicus et festum proximum",
+        "Icon": "credo-today",
+        "Id": "org.credo.today",
+        "License": "GPL-2.0-or-later",
+        "Name": "Today",
+        "Name[la]": "Hodie",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

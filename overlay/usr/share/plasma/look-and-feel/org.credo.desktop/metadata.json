@@ -1,0 +1,13 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [{ "Name": "Credo OS" }],
+        "Category": "",
+        "Description": "Credo OS: Catholic theme with a liturgical-season panel",
+        "Id": "org.credo.desktop",
+        "License": "GPL-2.0-or-later",
+        "Name": "Credo",
+        "Version": "1.0"
+    },
+    "X-Plasma-APIVersion": "2"
+}

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Prayers
+Name[la]=Preces
+Comment=Traditional Catholic prayers in Latin and English: Angelus, Salve Regina, Memorare, Acts…
+Exec=credo-library open /prayers
+Icon=credo-prayers
+Categories=Education;Spirituality;
+Keywords=prayer;prayers;angelus;memorare;creed;catholic;latin;

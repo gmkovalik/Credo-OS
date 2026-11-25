@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Welcome
+Name[la]=Salve
+GenericName=Welcome to Credo OS
+Comment=A short tour: language, light or dark look, prayer, your apps and staying safe
+Exec=credo-welcome
+Icon=credo
+Terminal=false
+StartupWMClass=credo-welcome
+Categories=System;
+Keywords=welcome;tour;start;credo;

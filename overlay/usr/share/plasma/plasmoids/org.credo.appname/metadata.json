@@ -1,0 +1,16 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "Credo OS" }],
+        "Category": "Windows and Tasks",
+        "Description": "The name of the active application in bold, as in the macOS menu bar",
+        "Description[la]": "Nomen applicationis activae",
+        "Icon": "window",
+        "Id": "org.credo.appname",
+        "License": "GPL-2.0-or-later",
+        "Name": "Active App Name",
+        "Name[la]": "Nomen applicationis",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

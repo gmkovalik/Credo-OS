@@ -1,0 +1,16 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "Credo OS" }],
+        "Category": "Miscellaneous",
+        "Description": "The mysteries of the Rosary for today; click to pray",
+        "Description[la]": "Mysteria Rosarii hodierna; preme ut ores",
+        "Icon": "credo-rosary",
+        "Id": "org.credo.rosary",
+        "License": "GPL-2.0-or-later",
+        "Name": "Holy Rosary",
+        "Name[la]": "Sanctissimum Rosarium",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

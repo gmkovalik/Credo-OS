@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: la\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "@action:button Pin widget open if it loses focus, icon-only button, for tooltip/Accessible"
+msgid "Keep Open"
+msgstr "Tene apertum"
+
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr "Remove iconem"
+
+msgctxt "@action:inmenu launches kmenuedit"
+msgid "Edit Applications…"
+msgstr "Muta applicationes…"
+
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Nihil inventum"
+
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr "Descriptio (Nomen)"
+
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr "Descriptio tantum"
+
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr "Nomen (Descriptio)"
+
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr "Nomen tantum"
+
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Elige…"
+
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Restitue iconem solitam"
+
+msgctxt "@label Accessible name for badge"
+msgid "Newly-installed application"
+msgstr "Applicatio nuper instituta"
+
+msgctxt "@label Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Novum!"
+
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr "Icon:"
+
+msgctxt "@label:group prefix for radio button group"
+msgid "Sidebar position:"
+msgstr "Locus taeniae lateralis:"
+
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr "Ostende applicationes ut:"
+
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Ordina applicationes litteris"
+
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr "In craticula"
+
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr "In indice"
+
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr "In craticula"
+
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr "In indice"
+
+msgctxt "@option:radio Show buttons for"
+msgid "Power"
+msgstr "Potentia"
+
+msgctxt "@option:radio Show buttons for"
+msgid "Power and session"
+msgstr "Potentia et sessio"
+
+msgctxt "@option:radio Show buttons for"
+msgid "Session"
+msgstr "Sessio"
+
+msgctxt "@option:radio sidebar position"
+msgid "Left"
+msgstr "Sinistra"
+
+msgctxt "@option:radio sidebar position"
+msgid "Right"
+msgstr "Dextra"
+
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Generalia"
+
+msgctxt "@title:group prefix for radio button group"
+msgid "Show buttons for:"
+msgstr "Ostende globulos pro:"
+
+msgctxt "@title:group prefix for radio button group"
+msgid "Show favorites:"
+msgstr "Ostende dilecta:"
+
+msgctxt "@title:group prefix for radio button group"
+msgid "Show other applications:"
+msgstr "Ostende alias applicationes:"
+
+msgctxt "@title:menu menubutton"
+msgid "More"
+msgstr "Plura"
+
+msgctxt "@title:menu menubutton"
+msgid "Power"
+msgstr "Potentia"
+
+msgctxt "@title:menu menubutton"
+msgid "Session"
+msgstr "Sessio"
+
+msgctxt "@title:menu menubutton"
+msgid "Session and Power"
+msgstr "Sessio et potentia"
+
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Applications"
+msgstr "Applicationes"
+
+msgctxt "@title:tab kickoff sidebar tab"
+msgid "Places"
+msgstr "Loca"
+
+msgid "Add to Favorites"
+msgstr "Adde ad dilecta"
+
+msgctxt "General options"
+msgid "General:"
+msgstr "Generalia:"
+
+msgctxt "Newly-installed app, badge, keep short"
+msgid "New!"
+msgstr "Novum!"
+
+msgid "Newly-installed application"
+msgstr "Applicatio nuper instituta"
+
+msgid "On All Activities"
+msgstr "In omnibus actionibus"
+
+msgid "On the Current Activity"
+msgstr "In actione praesenti"
+
+msgid "Remove from Favorites"
+msgstr "Remove a dilectis"
+
+msgid "Show in Favorites"
+msgstr "Ostende in dilectis"
+
+msgid "There is a newly-installed application in this category"
+msgstr "Applicatio nuper instituta in hac categoria est"
+
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "Computatrum"
+
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "Saepe adhibita"
+
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr "Historia"
+
+msgctxt "option:radio sidebar position"
+msgid "Left"
+msgstr "Sinistra"

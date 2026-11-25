@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Credo icon theme: credo-examen -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#431c65"/><stop offset="1" stop-color="#431c65"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b44f"/><stop offset="1" stop-color="#d9b44f"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eceef2"/><stop offset="1" stop-color="#eceef2"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    
+  </defs>
+  <rect x="50" y="62" width="412" height="412" rx="94" fill="#000" fill-opacity="0.22"/>
+  <rect x="50" y="46" width="412" height="412" rx="94" fill="url(#bg)"/>
+  
+  <circle cx="256" cy="168" r="96" fill="#ffd36b" fill-opacity="0.18"/>
+  <circle cx="256" cy="168" r="56" fill="#ffd36b" fill-opacity="0.22"/>
+  <path d="M256 92 C288 140 290 170 274 192 C268 200 262 204 256 206 C250 204 244 200 238 192 C222 170 224 140 256 92 Z" fill="#ffb02e"/>
+  <path d="M256 132 C272 160 270 178 262 190 C258 194 254 194 250 190 C242 178 240 160 256 132 Z" fill="#fff3b0"/>
+  <rect x="252" y="200" width="8" height="18" fill="#3a2a1a"/>
+  <rect x="210" y="214" width="92" height="196" rx="12" fill="url(#silver)"/>
+  <path d="M210 232 q20 10 26 32 v20 q4 -26 -2 -50" fill="#e8e2d6"/>
+  <rect x="176" y="404" width="160" height="20" rx="10" fill="url(#gold)"/>
+</svg>

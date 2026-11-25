@@ -1,0 +1,12 @@
+#!/bin/bash
+# Install Bottles (https://usebottles.com), which runs Windows programs through Wine, from Flathub.
+# Run as your user. Afterwards, double-click any .exe or .msi to run or install it.
+set -euo pipefail
+echo "Installing Bottles (runs Windows programs, no Windows needed) ..."
+flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install --user -y flathub com.usebottles.bottles
+# Let Bottles open installers from anywhere in your home folder and from USB drives.
+flatpak override --user --filesystem=home --filesystem=/run/media com.usebottles.bottles
+echo
+echo "Bottles is installed. Double-click a Windows installer (.exe or .msi) to set it up."
+echo "The first time, Bottles downloads its Windows runtime (a few hundred MB)."

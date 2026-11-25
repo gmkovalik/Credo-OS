@@ -1,0 +1,8 @@
+[Style]
+# Credo: flat Breeze widgets in the Credo green colours; menus are frosted glass (translucent + blur).
+MenuOpacity=82
+ToolBarDrawItemSeparator=false
+ViewDrawFrame=false
+SidePanelDrawFrame=false
+MenuItemDrawStrongFocus=false
+TabBarDrawCenteredTabs=false

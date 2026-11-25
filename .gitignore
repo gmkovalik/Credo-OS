@@ -1,0 +1,6 @@
+# never publish: build output, personal-use photos, caches
+out/
+dist/
+personal-wallpapers/
+__pycache__/
+*.pyc

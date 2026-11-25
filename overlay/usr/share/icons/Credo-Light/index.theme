@@ -1,0 +1,27 @@
+[Icon Theme]
+Name=Credo Light
+Comment=Credo OS icons in the style of macOS, with Credo symbols
+Inherits=breeze,hicolor
+Example=credo
+Directories=scalable/apps,scalable/places,scalable/mimetypes
+
+[scalable/apps]
+Size=64
+MinSize=8
+MaxSize=512
+Type=Scalable
+Context=Applications
+
+[scalable/places]
+Size=64
+MinSize=8
+MaxSize=512
+Type=Scalable
+Context=Places
+
+[scalable/mimetypes]
+Size=64
+MinSize=8
+MaxSize=512
+Type=Scalable
+Context=MimeTypes

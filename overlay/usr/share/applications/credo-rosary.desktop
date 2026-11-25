@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Holy Rosary
+Name[la]=Sanctissimum Rosarium
+Comment=Pray the Rosary bead by bead, Latin and English, with the mysteries of the day
+Exec=credo-library open /rosary
+Icon=credo-rosary
+Categories=Education;Spirituality;
+Keywords=rosary;mysteries;hail mary;ave maria;prayer;catholic;

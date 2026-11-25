@@ -1,0 +1,3 @@
+[Notifications]
+# macOS-style: notifications slide in at the top right
+PopupPosition=TopRight

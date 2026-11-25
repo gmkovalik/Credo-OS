@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Credo OS session setup
+Comment=Apply the Credo theme and liturgical season at login
+Exec=credo-theme --login --quiet
+OnlyShowIn=KDE;
+X-KDE-autostart-phase=2
+NoDisplay=true

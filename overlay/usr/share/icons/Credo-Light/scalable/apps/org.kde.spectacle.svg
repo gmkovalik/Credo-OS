@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Credo icon theme: screenshot -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#364b67"/><stop offset="1" stop-color="#364b67"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b44f"/><stop offset="1" stop-color="#d9b44f"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eceef2"/><stop offset="1" stop-color="#eceef2"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    
+  </defs>
+  <rect x="50" y="62" width="412" height="412" rx="94" fill="#000" fill-opacity="0.22"/>
+  <rect x="50" y="46" width="412" height="412" rx="94" fill="url(#bg)"/>
+  
+  <g fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round">
+    <path d="M128 196 V140 H184"/><path d="M328 140 H384 V196"/><path d="M384 316 V372 H328"/><path d="M184 372 H128 V316"/>
+  </g>
+  <circle cx="256" cy="256" r="56" fill="#ffffff"/><circle cx="256" cy="256" r="30" fill="#4b6584"/>
+</svg>

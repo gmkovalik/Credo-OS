@@ -1,0 +1,36 @@
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+
+@define-color accent_color #3f6f55;
+@define-color accent_bg_color #3f6f55;
+@define-color accent_fg_color #ffffff;
+@define-color theme_selected_bg_color #3f6f55;
+@define-color theme_selected_fg_color #ffffff;
+@define-color window_bg_color #17211c;
+@define-color window_fg_color #ebe8df;
+@define-color theme_bg_color #17211c;
+@define-color theme_fg_color #ebe8df;
+@define-color theme_base_color #141d18;
+@define-color theme_text_color #ebe8df;
+@define-color view_bg_color #141d18;
+@define-color view_fg_color #ebe8df;
+@define-color headerbar_bg_color #1f2b25;
+@define-color headerbar_fg_color #ebe8df;
+@define-color insensitive_fg_color #9eaaa2;
+
+/* Credo: rounded, quiet, macOS-like details */
+window, .background { background-color: #17211c; color: #ebe8df; }
+headerbar, .titlebar { background: #1f2b25; color: #ebe8df; min-height: 38px; border: none;
+  box-shadow: inset 0 -1px #1f2b25; }
+button { border-radius: 8px; }
+entry, spinbutton { border-radius: 8px; }
+selection, *:selected { background-color: #3f6f55; color: #ffffff; }
+scrollbar slider { border-radius: 99px; }
+/* traffic-light window buttons (client-side decorations: Firefox, GNOME apps) */
+windowcontrols button, button.titlebutton { min-width: 14px; min-height: 14px; padding: 0; margin: 0 4px;
+  border-radius: 99px; border: none; box-shadow: none; color: transparent; }
+windowcontrols button image, button.titlebutton image { opacity: 0; }
+windowcontrols button.close, button.titlebutton.close { background: #ff5f57; }
+windowcontrols button.minimize, button.titlebutton.minimize { background: #febc2e; }
+windowcontrols button.maximize, button.titlebutton.maximize { background: #28c840; }
+windowcontrols button:hover image, button.titlebutton:hover image { opacity: 0.6; color: #4d0000; }
+window:backdrop windowcontrols button, window:backdrop button.titlebutton { background: #9eaaa2; }

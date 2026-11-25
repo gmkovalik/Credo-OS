@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Credo icon theme: credo-macapps -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#737c86"/><stop offset="1" stop-color="#737c86"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b44f"/><stop offset="1" stop-color="#d9b44f"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eceef2"/><stop offset="1" stop-color="#eceef2"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    
+  </defs>
+  <rect x="50" y="62" width="412" height="412" rx="94" fill="#000" fill-opacity="0.22"/>
+  <rect x="50" y="46" width="412" height="412" rx="94" fill="url(#bg)"/>
+  
+  <rect x="112" y="140" width="288" height="210" rx="34" fill="#f5f5f7"/>
+  <rect x="112" y="140" width="288" height="210" rx="34" fill="none" stroke="#d0d3d9" stroke-width="6"/>
+  <path d="M188 214 h40 M188 252 h70" stroke="#9aa3ad" stroke-width="16" stroke-linecap="round"/>
+  <path d="M300 300 l40 -40 l-40 -40" fill="none" stroke="#3a6fc4" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="249" y="365" width="14" height="70" rx="2.8" fill="url(#gold)"/><rect x="232" y="377.6" width="48" height="14" rx="2.8" fill="url(#gold)"/>
+</svg>

@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "Credo OS" }],
+        "Category": "Windows and Tasks",
+        "Description": "Glass dock with magnification, like macOS",
+        "Description[la]": "Navale vitreum quod icones amplificat",
+        "Icon": "credo-launchpad",
+        "Id": "org.credo.dock",
+        "License": "GPL-2.0-or-later",
+        "Name": "Credo Dock",
+        "Name[la]": "Navale Credo",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": ["org.kde.plasma.multitasking"]
+}

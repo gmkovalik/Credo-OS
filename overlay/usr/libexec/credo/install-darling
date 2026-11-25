@@ -1,0 +1,40 @@
+#!/bin/bash
+# Build and install Darling (https://darlinghq.org), which runs macOS programs on Linux.
+# EXPERIMENTAL: command-line Mac programs work reasonably well; graphical apps mostly do not.
+# Takes about an hour and ~15 GB during the build. Run as your user; it asks for sudo.
+set -euo pipefail
+echo "Darling: run macOS programs on Linux (experimental)."
+echo "Command-line programs work reasonably well; graphical Mac apps mostly do not yet."
+read -r -p "Build and install it now? This takes about an hour. [y/N] " ok
+[[ "$ok" =~ ^[YySs]$ ]] || { echo "Cancelled."; exit 0; }
+
+echo "== Installing build dependencies"
+sudo dnf -y install make cmake clang lld bison flex git git-lfs python3 dbus-devel fuse-devel \
+  systemd-devel elfutils-libelf-devel cairo-devel freetype-devel libjpeg-turbo-devel giflib-devel \
+  libtiff-devel libxml2-devel libbsd-devel libglvnd-devel mesa-libGL-devel mesa-libEGL-devel \
+  pulseaudio-libs-devel libXrandr-devel libXcursor-devel libxkbfile-devel libXdamage-devel \
+  libXtst-devel ffmpeg-free-devel vulkan-headers vulkan-loader-devel llvm-devel \
+  glibc-devel.i686 libgcc.i686 freetype-devel.i686 libjpeg-turbo-devel.i686 giflib-devel.i686 \
+  libtiff-devel.i686 libglvnd-devel.i686 mesa-libGL-devel.i686 mesa-libEGL-devel.i686 \
+  pulseaudio-libs-devel.i686 || echo "(some build dependencies were not found; trying anyway)"
+
+SRC="${XDG_CACHE_HOME:-$HOME/.cache}/darling-src"
+if [ -d "$SRC/.git" ]; then
+  echo "== Updating the Darling source in $SRC"
+  git -C "$SRC" pull --ff-only && git -C "$SRC" submodule update --init --recursive
+else
+  echo "== Downloading the Darling source into $SRC (several GB)"
+  git lfs install
+  git clone --recursive https://github.com/darlinghq/darling.git "$SRC"
+fi
+
+echo "== Building (this is the long part)"
+mkdir -p "$SRC/build"
+cd "$SRC/build"
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make -j"$(nproc)"
+sudo make install
+
+echo
+echo "Done. Try:   darling shell      (a macOS shell)"
+echo "       or:   darling /path/to/program"

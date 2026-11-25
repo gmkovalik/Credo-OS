@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Windows Apps
+Name[la]=Applicationes Windows
+GenericName=Run Windows programs
+Comment=Run Windows programs: everyday ones with Bottles, SolidWorks, Adobe and other big ones in real Windows with WinBoat
+Exec=credo-center --winapps
+Icon=credo-winapps
+Categories=System;Settings;
+Keywords=windows;exe;msi;wine;bottles;winboat;solidworks;adobe;autocad;office;

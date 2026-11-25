@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Credo Welcome
+Exec=credo-welcome --first-run
+Icon=credo
+X-KDE-autostart-phase=2
+NoDisplay=true
+OnlyShowIn=KDE;

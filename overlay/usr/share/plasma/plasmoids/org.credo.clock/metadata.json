@@ -1,0 +1,16 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "Credo OS" }],
+        "Category": "Date and Time",
+        "Description": "Analog clock with Roman numerals and the Church's name for the day",
+        "Description[la]": "Horologium numeris Romanis cum nomine diei ecclesiastico",
+        "Icon": "preferences-system-time",
+        "Id": "org.credo.clock",
+        "License": "GPL-2.0-or-later",
+        "Name": "Roman Clock",
+        "Name[la]": "Horologium Romanum",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

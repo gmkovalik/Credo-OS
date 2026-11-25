@@ -1,0 +1,8 @@
+[Unit]
+Description=Angelus reminder (Regina Caeli in Eastertide)
+PartOf=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/credo-liturgy --angelus
+TimeoutStartSec=20min

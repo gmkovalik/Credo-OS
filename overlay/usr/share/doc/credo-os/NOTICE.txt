@@ -1,0 +1,34 @@
+Credo OS - Legal Notices
+========================
+
+Credo OS is an independent Linux distribution based on Fedora Linux.
+
+Credo OS is not affiliated with, sponsored by, or endorsed by the Fedora Project or Red Hat, Inc.
+"Fedora" is a trademark of Red Hat, Inc.; Credo OS contains none of Fedora's logos or artwork.
+
+Credo OS is an independent project. It is not an official product of the Catholic Church, the
+Holy See, or any diocese or religious institute, and does not claim their approval.
+
+Credo OS incorporates software developed by many third-party developers and organizations. These
+components are distributed under their own open-source and other licences, and all of their
+copyright notices, licence terms and redistribution requirements remain in effect:
+
+  * The licence of every installed package is listed in
+      /usr/share/doc/credo-os/package-licenses.tsv
+    (package, version, licence, source package, home page) and each package's own licence files
+    are in /usr/share/licenses/<package>/.
+  * Corresponding source code for every package, including all GPL- and LGPL-licensed software,
+    is published next to each Credo OS release (source RPMs), together with Credo OS's own build
+    scripts and configuration. See the "Source code" section of the Credo OS website or repository.
+  * Third-party content added by Credo OS (texts, data, fonts, artwork) is listed in
+      /usr/share/doc/credo-os/CREDITS.md
+
+Credo OS's own software (the files under /usr/lib/credo, /usr/libexec/credo, /usr/bin/credo-*,
+the Credo Plasma widgets, theme and build scripts) is free software: you can redistribute it and/or
+modify it under the terms of the GNU General Public License, version 3 or (at your option) any
+later version. See /usr/share/doc/credo-os/licenses/GPL-3.0.txt. It comes WITH NO WARRANTY.
+
+The Credo OS name, the Chi-Rho logo and Credo OS artwork are original works of the Credo OS
+author and are separate from the Fedora Project's trademarks and branding.
+
+Nothing in Credo OS collects or sends personal data: there is no telemetry and no account.

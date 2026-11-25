@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Credo-Light
+Comment=Credo OS GTK theme (light)
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Credo-Light
+IconTheme=Credo

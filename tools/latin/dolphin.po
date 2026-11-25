@@ -1,0 +1,292 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: la\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "Exhauri quisquilias"
+
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr "Exscribe locum"
+
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Claude tabulam"
+
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Exscribe"
+
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "Excide"
+
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "Dele"
+
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Exhauri quisquilias"
+
+msgctxt "@action:inmenu"
+msgid "Hide"
+msgstr "Occulta"
+
+msgctxt "@action:inmenu"
+msgid "Move to Trash"
+msgstr "Move in quisquilias"
+
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Nova tabula"
+
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "Aperi in nova tabula"
+
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "Aperi in nova fenestra"
+
+msgctxt "@action:inmenu"
+msgid "Preview"
+msgstr "Praevisio"
+
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "Proprietates"
+
+msgctxt "@action:inmenu"
+msgid "Rename…"
+msgstr "Renomina…"
+
+msgctxt "@action:inmenu"
+msgid "Show Hidden Files"
+msgstr "Ostende fasciculos occultos"
+
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "Adde ad loca"
+
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
+msgstr "Inverte selectionem"
+
+msgctxt "@action:inmenu Edit"
+msgid "Paste"
+msgstr "Insere"
+
+msgctxt "@action:inmenu File"
+msgid "Close Tab"
+msgstr "Claude tabulam"
+
+msgctxt "@action:inmenu File"
+msgid "Duplicate Here"
+msgstr "Duplica hic"
+
+msgctxt "@action:inmenu File"
+msgid "New Tab"
+msgstr "Nova tabula"
+
+msgctxt "@action:inmenu File"
+msgid "Properties"
+msgstr "Proprietates"
+
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "Quisquiliae"
+
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Editable Location"
+msgstr "Locus mutabilis"
+
+msgctxt "@action:inmenu Tools"
+msgid "Filter…"
+msgstr "Cola…"
+
+msgctxt "@action:inmenu Tools"
+msgid "Open Terminal"
+msgstr "Aperi terminale"
+
+msgctxt "@action:inmenu Tools"
+msgid "Open Terminal Here"
+msgstr "Aperi terminale hic"
+
+msgctxt "@action:inmenu View"
+msgid "Show Hidden Files"
+msgstr "Ostende fasciculos occultos"
+
+msgctxt "@action:inmenu View"
+msgid "Show Panels"
+msgstr "Ostende tabulas laterales"
+
+msgctxt "@action:inmenu View"
+msgid "Sort By"
+msgstr "Ordina secundum"
+
+msgctxt "@action:inmenu View"
+msgid "Stop"
+msgstr "Siste"
+
+msgctxt "@action:inmenu View Mode"
+msgid "Compact"
+msgstr "Compactum"
+
+msgctxt "@action:inmenu View Mode"
+msgid "Details"
+msgstr "Singula"
+
+msgctxt "@action:inmenu View Mode"
+msgid "Icons"
+msgstr "Icones"
+
+msgctxt "@action:intoolbar"
+msgid "Search"
+msgstr "Quaere"
+
+msgctxt "@action:intoolbar"
+msgid "Show Previews"
+msgstr "Ostende praevisiones"
+
+msgctxt "@action:intoolbar Close left view"
+msgid "Close"
+msgstr "Claude"
+
+msgctxt "@action:intoolbar Close right view"
+msgid "Close"
+msgstr "Claude"
+
+msgctxt "@action:intoolbar Split view"
+msgid "Split"
+msgstr "Divide"
+
+msgctxt "@info"
+msgid "Close Tab"
+msgstr "Claude tabulam"
+
+msgctxt "@item:inlistbox"
+msgid "Compact"
+msgstr "Compactum"
+
+msgctxt "@item:inlistbox"
+msgid "Details"
+msgstr "Singula"
+
+msgctxt "@item:inlistbox"
+msgid "Icons"
+msgstr "Icones"
+
+msgctxt "@item:inlistbox Sort"
+msgid "Ascending"
+msgstr "Ascendens"
+
+msgctxt "@item:inlistbox Sort"
+msgid "Descending"
+msgstr "Descendens"
+
+msgctxt "@label"
+msgid "Modified"
+msgstr "Mutatum"
+
+msgctxt "@label"
+msgid "Name"
+msgstr "Nomen"
+
+msgctxt "@label"
+msgid "Size"
+msgstr "Magnitudo"
+
+msgctxt "@label"
+msgid "Type"
+msgstr "Genus"
+
+msgctxt "@label"
+msgid "View Mode"
+msgstr "Modus aspectus"
+
+msgctxt "@label as in default folder color"
+msgid "Music"
+msgstr "Musica"
+
+msgctxt "@label:textbox"
+msgid "Search…"
+msgstr "Quaere…"
+
+msgctxt "@option:check"
+msgid "Delete"
+msgstr "Dele"
+
+msgctxt "@title:group"
+msgid "Trash"
+msgstr "Quisquiliae"
+
+msgctxt "@title:group Size"
+msgid "Folders"
+msgstr "Plicae"
+
+msgctxt "@title:menu"
+msgid "Location Bar"
+msgstr "Taenia loci"
+
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "Crea novum"
+
+msgctxt "@title:tab"
+msgid "Compact"
+msgstr "Compactum"
+
+msgctxt "@title:tab"
+msgid "Details"
+msgstr "Singula"
+
+msgctxt "@title:tab"
+msgid "Icons"
+msgstr "Icones"
+
+msgctxt "@title:window"
+msgid "Folders"
+msgstr "Plicae"
+
+msgctxt "@title:window"
+msgid "Information"
+msgstr "Notitiae"
+
+msgctxt "@title:window"
+msgid "Places"
+msgstr "Loca"
+
+msgctxt "@title:window Shell terminal"
+msgid "Terminal"
+msgstr "Terminale"
+
+msgid "Filter…"
+msgstr "Cola…"
+
+msgid "Folder is empty"
+msgstr "Plica vacua est"
+
+msgid "Reload"
+msgstr "Renova"
+
+msgid "Search…"
+msgstr "Quaere…"
+
+msgctxt "Sort ascending"
+msgid "Ascending"
+msgstr "Ascendens"
+
+msgctxt "Sort descending"
+msgid "Descending"
+msgstr "Descendens"
+
+msgid "Stop"
+msgstr "Siste"
+
+msgctxt "name of kuserfeedback data source provided by dolphin"
+msgid "Places"
+msgstr "Loca"

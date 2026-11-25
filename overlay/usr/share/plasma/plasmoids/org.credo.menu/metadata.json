@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "Credo OS" }],
+        "Category": "Application Launchers",
+        "Description": "The Credo menu: Apps, Credo Center, settings, lock, sleep, restart and shut down",
+        "Description[la]": "Index Credo",
+        "Icon": "credo",
+        "Id": "org.credo.menu",
+        "License": "GPL-2.0-or-later",
+        "Name": "Credo Menu",
+        "Name[la]": "Index Credo",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": ["org.kde.plasma.launchermenu"]
+}

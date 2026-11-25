@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Security Check
+Name[la]=Inspectio securitatis
+GenericName=Check this computer's security
+Comment=Audits the firewall, encryption, updates, open ports, Secure Boot and more, and explains how to fix problems
+Exec=credo-security-check
+Icon=security-high
+Terminal=false
+Categories=System;Security;
+Keywords=security;firewall;encryption;audit;selinux;updates;

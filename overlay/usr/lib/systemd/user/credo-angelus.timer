@@ -1,0 +1,9 @@
+[Unit]
+Description=Angelus bells at 6:00, 12:00 and 18:00
+
+[Timer]
+OnCalendar=*-*-* 06,12,18:00:00
+AccuracySec=30s
+
+[Install]
+WantedBy=timers.target

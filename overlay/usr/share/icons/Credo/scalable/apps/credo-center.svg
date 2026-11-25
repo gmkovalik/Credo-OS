@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Credo icon theme: credo-center -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#403f3d"/><stop offset="1" stop-color="#403f3d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b44f"/><stop offset="1" stop-color="#d9b44f"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eceef2"/><stop offset="1" stop-color="#eceef2"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    
+  </defs>
+  <rect x="50" y="62" width="412" height="412" rx="94" fill="#000" fill-opacity="0.22"/>
+  <rect x="50" y="46" width="412" height="412" rx="94" fill="url(#bg)"/>
+  <path d="M256 130 L279.5 103.8 L302.4 109.3 L311.4 143.3 L327.7 153.3 L362.1 145.9 L377.4 163.8 L364.7 196.6 L372 214.3 L404.2 228.5 L406 252 L376.5 271.1 L372 289.7 L389.7 320.1 L377.4 340.2 L342.3 338.3 L327.7 350.7 L324.1 385.7 L302.4 394.7 L275.1 372.5 L256 374 L232.5 400.2 L209.6 394.7 L200.6 360.7 L184.3 350.7 L149.9 358.1 L134.6 340.2 L147.3 307.4 L140 289.7 L107.8 275.5 L106 252 L135.5 232.9 L140 214.3 L122.3 183.9 L134.6 163.8 L169.7 165.7 L184.3 153.3 L187.9 118.3 L209.6 109.3 L236.9 131.5 Z" fill="url(#silver)"/><circle cx="256" cy="252" r="78" fill="#2f2d2a"/><rect x="248" y="200" width="16" height="104" rx="3.2" fill="url(#gold)"/><rect x="223" y="221.1" width="66" height="16" rx="3.2" fill="url(#gold)"/>
+</svg>

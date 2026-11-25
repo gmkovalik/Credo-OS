@@ -1,0 +1,25 @@
+[Desktop Entry]
+Type=Application
+Name=Credo Browser
+Name[la]=Navigator Credo
+GenericName=Web Browser
+GenericName[la]=Navigator interretialis
+Comment=Browse the web with tabs, bookmarks, private windows and tracker blocking
+Exec=credo-browser %U
+Icon=credo-browser
+Terminal=false
+StartupWMClass=credo-browser
+Categories=Network;WebBrowser;
+MimeType=text/html;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;
+Keywords=web;browser;internet;www;
+Actions=new-window;private;
+
+[Desktop Action new-window]
+Name=New Window
+Name[la]=Nova fenestra
+Exec=credo-browser
+
+[Desktop Action private]
+Name=New Private Window
+Name[la]=Fenestra privata
+Exec=credo-browser --private

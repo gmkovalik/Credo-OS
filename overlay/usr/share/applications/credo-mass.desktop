@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Mass of the Day
+Name[la]=Missa Diei
+Comment=Propers of today's Mass, Latin and English (1954 Missal)
+Exec=credo-library open /mass
+Icon=credo-mass
+Categories=Education;Literature;
+Keywords=missal;mass;propers;liturgy;calendar;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Run Windows Program
+Name[la]=Programma Windows exsequere
+Comment=Run or install a Windows program (.exe, .msi) with Bottles
+Exec=credo-winrun %f
+Icon=credo-winapps
+NoDisplay=true
+MimeType=application/x-ms-dos-executable;application/x-msdownload;application/x-msi;application/x-ms-installer;application/vnd.microsoft.portable-executable;application/x-ms-shortcut;

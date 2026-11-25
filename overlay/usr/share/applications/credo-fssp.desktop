@@ -1,0 +1,22 @@
+[Desktop Entry]
+Type=Application
+Name=FSSP
+Name[la]=FSSP
+GenericName=Prayer Card and Cum Petro
+Comment=The Priestly Fraternity of St. Peter's monthly prayer card and its magazine Cum Petro
+Exec=credo-fssp
+Icon=credo-fssp
+Terminal=false
+StartupWMClass=credo-fssp
+Categories=Education;Spirituality;
+Keywords=fssp;fraternity;saint peter;prayer card;cum petro;magazine;latin mass;
+Actions=card;cumpetro;
+
+[Desktop Action card]
+Name=Monthly Prayer Card
+Name[la]=Imago precum menstrua
+Exec=credo-fssp card
+
+[Desktop Action cumpetro]
+Name=Cum Petro
+Exec=credo-fssp cumpetro

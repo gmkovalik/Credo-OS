@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Apps
+Name[la]=Applicationes
+Comment=All your applications on one full-screen page
+Exec=credo-launchpad
+Icon=credo-launchpad
+Categories=System;
+Keywords=apps;applications;grid;menu;all apps;

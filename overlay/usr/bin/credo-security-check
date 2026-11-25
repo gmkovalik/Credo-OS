@@ -1,0 +1,4 @@
+#!/bin/sh
+# Credo Security Check (see /usr/lib/credo/credo/securitycheck.py). Opens a terminal if started from the menu.
+[ -t 1 ] || exec konsole --hold -e "$0" "$@"
+exec env PYTHONPATH=/usr/lib/credo python3 -m credo.securitycheck --html "$HOME/Credo-Security-Report.html" "$@"

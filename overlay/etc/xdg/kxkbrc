@@ -1,0 +1,7 @@
+[Layout]
+# Right Alt is the Compose key, for Latin macrons and ligatures:
+#   Compose - a  -> ā     Compose " e -> ë     Compose a e -> æ     Compose o e -> œ
+LayoutList=us
+Options=compose:ralt
+ResetOldOptions=true
+Use=true

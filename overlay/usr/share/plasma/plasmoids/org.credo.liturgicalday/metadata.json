@@ -1,0 +1,14 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "Credo OS" }],
+        "Category": "Date and Time",
+        "Description": "Season, color and day of the 1954 Roman calendar",
+        "Icon": "credo",
+        "Id": "org.credo.liturgicalday",
+        "License": "GPL-2.0-or-later",
+        "Name": "Liturgical Day",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

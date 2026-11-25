@@ -1,0 +1,12 @@
+{
+    "KPackageStructure": "Plasma/Theme",
+    "KPlugin": {
+        "Authors": [{ "Name": "Credo OS" }],
+        "Description": "Liquid-glass panels and popups for Credo OS",
+        "Id": "Credo",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Credo Glass",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

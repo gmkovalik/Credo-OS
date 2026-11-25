@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Today
+Name[la]=Hodie
+GenericName=Liturgical day
+Comment=Today's feast, saint, Mass, Rosary mysteries and the coming feasts (1954 calendar)
+Exec=credo-library open /today
+Icon=credo-today
+Categories=Education;Spirituality;
+Keywords=today;feast;saint;liturgy;calendar;catholic;

@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: la\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%1 &Handbook"
+msgstr "&Enchiridion %1"
+
+msgid "&About %1"
+msgstr "&De %1"
+
+msgid "&Add Bookmark"
+msgstr "&Adde signaculum"
+
+msgid "&Back"
+msgstr "&Retro"
+
+msgid "&Close"
+msgstr "&Claude"
+
+msgid "&Configure %1…"
+msgstr "&Configura %1…"
+
+msgid "&Copy"
+msgstr "Ex&scribe"
+
+msgid "&Delete"
+msgstr "&Dele"
+
+msgid "&Donate"
+msgstr "&Dona"
+
+msgid "&Edit Bookmarks…"
+msgstr "&Muta signacula…"
+
+msgid "&Find…"
+msgstr "&Quaere…"
+
+msgid "&First Page"
+msgstr "&Prima pagina"
+
+msgid "&Fit to Page"
+msgstr "Ad paginam &apta"
+
+msgid "&Forward"
+msgstr "&Porro"
+
+msgid "&Go To…"
+msgstr "&I ad…"
+
+msgid "&Go to Line…"
+msgstr "I ad &lineam…"
+
+msgid "&Go to Page…"
+msgstr "I ad &paginam…"
+
+msgid "&Last Page"
+msgstr "&Ultima pagina"
+
+msgid "&Mail…"
+msgstr "&Epistula…"
+
+msgid "&Move to Trash"
+msgstr "&Move in quisquilias"
+
+msgid "&New"
+msgstr "&Novum"
+
+msgid "&Next Page"
+msgstr "Pagina &sequens"
+
+msgid "&Open…"
+msgstr "&Aperi…"
+
+msgid "&Paste"
+msgstr "&Insere"
+
+msgid "&Previous Page"
+msgstr "Pagina &prior"
+
+msgid "&Print…"
+msgstr "&Imprime…"
+
+msgid "&Quit"
+msgstr "E&xi"
+
+msgid "&Refresh"
+msgstr "&Renova"
+
+msgid "&Rename…"
+msgstr "&Renomina…"
+
+msgid "&Replace…"
+msgstr "&Substitue…"
+
+msgid "&Report Bug…"
+msgstr "&Refer vitium…"
+
+msgid "&Save"
+msgstr "&Serva"
+
+msgid "&Spelling…"
+msgstr "&Orthographia…"
+
+msgid "&Undo"
+msgstr "&Revoca"
+
+msgid "&Up"
+msgstr "&Sursum"
+
+msgid "&Zoom…"
+msgstr "&Magnitudo…"
+
+msgctxt "@action:inmenu A menu text advertising its contents (more features)."
+msgid "More"
+msgstr "Plura"
+
+msgctxt "@action:inmenu A section heading advertising the contents of the menu bar"
+msgid "More Actions"
+msgstr "Plures actiones"
+
+msgctxt "@action:inmenu General purpose menu"
+msgid "&Menu"
+msgstr "&Index"
+
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Configura"
+
+msgid "About &KDE"
+msgstr "De &KDE"
+
+msgid "C&lear"
+msgstr "&Purga"
+
+msgid "Clear List"
+msgstr "Purga indicem"
+
+msgid "Close document"
+msgstr "Claude documentum"
+
+msgid "Color Scheme"
+msgstr "Colores"
+
+msgid "Configure &Language…"
+msgstr "Configura &linguam…"
+
+msgid "Configure &Notifications…"
+msgstr "Configura &nuntia…"
+
+msgid "Configure Tool&bars…"
+msgstr "Configura taenias &instrumentorum…"
+
+msgid "Create new document"
+msgstr "Crea novum documentum"
+
+msgid "Cu&t"
+msgstr "Ex&cide"
+
+msgid "Default"
+msgstr "Solitum"
+
+msgid "Dese&lect"
+msgstr "&Deselige"
+
+msgctxt "Encodings menu"
+msgid "Default"
+msgstr "Solitum"
+
+msgid "F&ull Screen Mode"
+msgstr "&Plena visio"
+
+msgid "Find &Next"
+msgstr "Quaere &sequens"
+
+msgid "Find Pre&vious"
+msgstr "Quaere &priorem"
+
+msgid "Fit to Page &Height"
+msgstr "Ad altitudinem paginae"
+
+msgid "Fit to Page &Width"
+msgstr "Ad latitudinem paginae"
+
+msgid "Go up"
+msgstr "Sursum"
+
+msgid "No Entries"
+msgstr "Nihil"
+
+msgid "Open &Menu"
+msgstr "Aperi &indicem"
+
+msgid "Open &Recent"
+msgstr "&Recentia"
+
+msgid "Open an existing document"
+msgstr "Aperi documentum"
+
+msgid "Paste clipboard content"
+msgstr "Insere contentum"
+
+msgid "Print Previe&w"
+msgstr "Praevisio &impressionis"
+
+msgid "Print document"
+msgstr "Imprime documentum"
+
+msgid "Quit application"
+msgstr "Exi ex applicatione"
+
+msgid "Re&do"
+msgstr "&Iterum fac"
+
+msgid "Re&vert"
+msgstr "Re&stitue"
+
+msgid "Redo last undone action"
+msgstr "Iterum fac actionem revocatam"
+
+msgid "Save &As…"
+msgstr "Serva &ut…"
+
+msgid "Save document"
+msgstr "Serva documentum"
+
+msgid "Select &All"
+msgstr "Selige &omnia"
+
+msgid "Show &Menubar"
+msgstr "Ostende taeniam &indicis"
+
+msgid "Show &Toolbar"
+msgstr "Ostende taeniam &instrumentorum"
+
+msgid "Show St&atusbar"
+msgstr "Ostende taeniam &status"
+
+msgid "Undo last action"
+msgstr "Revoca ultimam actionem"
+
+msgid "What's &This?"
+msgstr "&Quid est hoc?"
+
+msgid "Zoom &In"
+msgstr "&Amplifica"
+
+msgid "Zoom &Out"
+msgstr "&Minue"
+
+msgid "Zoom to &Actual Size"
+msgstr "Magnitudo &vera"
+
+msgctxt "go back"
+msgid "&Back"
+msgstr "&Retro"
+
+msgctxt "go forward"
+msgid "&Forward"
+msgstr "&Porro"
+
+msgctxt "home page"
+msgid "&Home"
+msgstr "&Domus"

@@ -1,0 +1,50 @@
+#!/bin/bash
+# Install WinBoat (https://github.com/TibixDev/winboat): real Windows in a background virtual
+# machine, with its programs shown as normal windows. For software that needs real Windows,
+# such as SolidWorks, Adobe Creative Cloud or AutoCAD. Run as your user; it asks for sudo.
+#
+# Needs: a CPU with virtualization (every ThinkPad X1 Carbon has it; enable it in the BIOS if
+# needed), 32 GB free disk, a Windows licence. Uses Docker, Docker Compose v2 and FreeRDP 3.
+set -euo pipefail
+echo "WinBoat: run real Windows programs (SolidWorks, Adobe, AutoCAD...) as Credo windows."
+echo "It downloads Windows the first time it starts (you need your own licence) and uses about"
+echo "32 GB of disk and 4+ GB of memory while it runs."
+read -r -p "Install it now? [y/N] " ok
+[[ "$ok" =~ ^[YySs]$ ]] || { echo "Cancelled."; exit 0; }
+
+if [ ! -e /dev/kvm ]; then
+  echo "!! /dev/kvm is missing: turn on Intel Virtualization Technology in the BIOS"
+  echo "   (ThinkPad: F1 at power-on > Config > Security > Virtualization), then run this again."
+  exit 1
+fi
+
+echo "== Installing Docker, Docker Compose and FreeRDP 3"
+sudo dnf -y install moby-engine docker-compose freerdp curl
+sudo systemctl enable --now docker
+sudo usermod -aG docker "$USER"
+# Networking modules the Windows container needs.
+printf 'ip_tables\niptable_nat\n' | sudo tee /etc/modules-load.d/winboat.conf >/dev/null
+sudo modprobe ip_tables iptable_nat 2>/dev/null || true
+
+echo "== Downloading the latest WinBoat release"
+TMP=$(mktemp -d)
+URL=""
+for repo in TibixDev/winboat winboat-org/winboat; do
+  URL=$(curl -fsSL "https://api.github.com/repos/$repo/releases/latest" \
+        | grep -o '"browser_download_url": *"[^"]*\.rpm"' | grep -v -i arm | head -1 | cut -d'"' -f4) || true
+  [ -n "$URL" ] && break
+done
+if [ -z "$URL" ]; then
+  echo "!! Could not find the WinBoat .rpm. Download it from https://github.com/TibixDev/winboat/releases"
+  echo "   and open it with: sudo dnf install ./winboat-*.rpm"
+  exit 1
+fi
+echo "   $URL"
+curl -fL --progress-bar -o "$TMP/winboat.rpm" "$URL"
+sudo dnf -y install "$TMP/winboat.rpm"
+rm -rf "$TMP"
+
+echo
+echo "WinBoat is installed. LOG OUT AND BACK IN once (so Docker lets you in), then open WinBoat"
+echo "from Apps (the app grid). Its setup downloads and installs Windows; then install SolidWorks (or any"
+echo "program) inside it, and it appears in WinBoat's app list to open as a normal window."

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Credo Center
+Name[la]=Centrum Credo
+GenericName=Settings
+Comment=Appearance, ThinkPad, software and library settings
+Exec=credo-center
+Icon=credo-center
+Categories=Settings;System;Qt;KDE;
+Keywords=theme;logo;panel;battery;thinkpad;catholic;settings;

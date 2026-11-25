@@ -1,0 +1,23 @@
+[org.kde.kdecoration2]
+# Credo window decoration (Aurorae): traffic-light buttons, rounded corners.
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Credo
+# macOS order: close, minimize, maximize on the left; nothing on the right.
+ButtonsOnLeft=XIA
+ButtonsOnRight=
+BorderSize=Normal
+BorderSizeAuto=false
+
+[Windows]
+BorderlessMaximizedWindows=false
+
+[ElectricBorders]
+# Top-left corner opens the Overview (like Mission Control).
+TopLeft=None
+
+[Effect-overview]
+BorderActivate=7
+
+[Plugins]
+magiclampEnabled=true
+squashEnabled=false

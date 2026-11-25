@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Credo Browser: the globus cruciger (the world under the Cross) -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d5fa0"/>
+      <stop offset="1" stop-color="#162f55"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3d77a"/>
+      <stop offset="1" stop-color="#b8902f"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="url(#bg)"/>
+  <circle cx="256" cy="300" r="148" fill="none" stroke="url(#gold)" stroke-width="22"/>
+  <path d="M108 300 H404" stroke="url(#gold)" stroke-width="20"/>
+  <path d="M256 152 V448" stroke="url(#gold)" stroke-width="20"/>
+  <ellipse cx="256" cy="300" rx="72" ry="148" fill="none" stroke="#f3d77a" stroke-opacity="0.55" stroke-width="8"/>
+  <path d="M128 230 H384 M128 370 H384" stroke="#f3d77a" stroke-opacity="0.55" stroke-width="8"/>
+  <rect x="242" y="52" width="28" height="104" rx="4" fill="url(#gold)"/>
+  <rect x="210" y="80" width="92" height="26" rx="4" fill="url(#gold)"/>
+</svg>

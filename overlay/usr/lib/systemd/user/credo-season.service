@@ -1,0 +1,7 @@
+[Unit]
+Description=Credo OS: follow the liturgical season in the desktop theme
+After=plasma-workspace.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/credo-theme --quiet

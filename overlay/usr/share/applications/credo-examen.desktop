@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Examination of Conscience
+Name[la]=Examen Conscientiae
+Comment=Prepare for Confession by the Ten Commandments, the precepts and the capital sins
+Exec=credo-library open /examen
+Icon=credo-examen
+Categories=Education;Spirituality;
+Keywords=confession;examen;conscience;sin;penance;catholic;

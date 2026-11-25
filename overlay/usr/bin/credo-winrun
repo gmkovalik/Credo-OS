@@ -1,0 +1,20 @@
+#!/bin/sh
+# Double-clicking a Windows program (.exe / .msi): run or install it with Bottles.
+# Big professional software (SolidWorks, Adobe, AutoCAD) is recognised and sent to the
+# Windows apps page, which explains how to run it in real Windows with WinBoat.
+FILE="$1"
+NAME=$(basename "$FILE" 2>/dev/null)
+case "$(printf '%s' "$NAME" | tr 'A-Z' 'a-z')" in
+  *solidworks*|*sldim*|*autocad*|*fusion*|*creativecloud*|*adobe*|*inventor*|*revit*|*catia*|*officesetup*)
+    exec credo-center --winapps "$NAME" ;;
+esac
+if ! flatpak info --user com.usebottles.bottles >/dev/null 2>&1 && \
+   ! flatpak info com.usebottles.bottles >/dev/null 2>&1; then
+  if command -v kdialog >/dev/null; then
+    kdialog --title "Windows programs" --yesno "To run Windows programs, Credo uses Bottles (free, about 1 GB).
+
+Install it now?" || exit 0
+  fi
+  konsole --hold -e /usr/libexec/credo/install-bottles || exit 1
+fi
+exec flatpak run com.usebottles.bottles "$FILE"

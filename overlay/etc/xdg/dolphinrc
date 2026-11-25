@@ -1,0 +1,29 @@
+[General]
+# Credo: Files set up like the Mac Finder (big icons, no status bar or zoom slider, folders that
+# expand in place in list view, archives open like folders, no menu bar: the menus are in the top bar)
+ShowStatusBar=Disabled
+ShowZoomSlider=false
+ShowSpaceInfo=false
+ShowSelectionToggle=false
+RememberOpenedTabs=false
+BrowseThroughArchives=true
+ShowFullPathInTitlebar=false
+OpenExternallyCalledFolderInNewTab=false
+
+[MainWindow]
+MenuBar=Disabled
+
+[IconsMode]
+IconSize=64
+PreviewSize=64
+TextWidthIndex=1
+
+[CompactMode]
+PreviewSize=32
+
+[DetailsMode]
+ExpandableFolders=true
+PreviewSize=22
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,ffmpegthumbs,gsthumbnail,rawthumbnail

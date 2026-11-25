@@ -1,0 +1,52 @@
+#!/bin/sh
+# Replace Fedora's logos and names on an installed Credo OS with Credo's own (run as root).
+# Fedora's trademark rules require this for a system that is shared as a "Fedora Remix".
+# Safe to run again. It does not touch the desktop, panels or user settings.
+set -u
+say() { printf '%s\n' "$*"; }
+
+# 1. Logo packages: Fedora's logos -> the neutral generic logos (Fedora's own replacement set).
+for pair in "fedora-logos generic-logos" "fedora-logos-httpd generic-logos-httpd"; do
+  set -- $pair
+  if rpm -q "$1" >/dev/null 2>&1; then
+    say "Replacing $1 with $2 ..."
+    dnf -y swap "$1" "$2" || say "  (could not swap $1; skipped)"
+  fi
+done
+
+# 2. System name and logo (About this System, login, boot entries for new kernels).
+OSR=/usr/lib/os-release
+if [ -f "$OSR" ]; then
+  VER=$(. "$OSR"; echo "$VERSION_ID")
+  sed -i -e 's/^NAME=.*/NAME="Credo OS"/' \
+         -e "s/^PRETTY_NAME=.*/PRETTY_NAME=\"Credo OS $VER\"/" \
+         -e '/^LOGO=/d' -e '/^VARIANT=/d' -e '/^VARIANT_ID=/d' "$OSR"
+  printf 'VARIANT="Credo OS"\nVARIANT_ID=credo\nLOGO=credo\n' >> "$OSR"
+fi
+
+# 3. Boot menu: entries already installed still say "Fedora Linux"; rename their titles.
+for f in /boot/loader/entries/*.conf; do
+  [ -f "$f" ] || continue
+  sed -i -E 's/^title(\s+)Fedora Linux/title\1Credo OS/; s/^title(\s+)Fedora/title\1Credo OS/' "$f"
+done
+if [ -f /etc/default/grub ]; then
+  if grep -q '^GRUB_DISTRIBUTOR=' /etc/default/grub; then
+    sed -i 's/^GRUB_DISTRIBUTOR=.*/GRUB_DISTRIBUTOR="Credo OS"/' /etc/default/grub
+  else
+    echo 'GRUB_DISTRIBUTOR="Credo OS"' >> /etc/default/grub
+  fi
+fi
+
+# 4. Boot splash and login screen: Credo's splash; Breeze login (Fedora's login theme shows its logo).
+command -v plymouth-set-default-theme >/dev/null && [ -d /usr/share/plymouth/themes/credo ] \
+  && plymouth-set-default-theme credo 2>/dev/null
+mkdir -p /etc/sddm.conf.d
+printf '[Theme]\nCurrent=breeze\n' > /etc/sddm.conf.d/10-credo.conf
+
+# 5. Distribution-logo pictures some programs show directly: point them at the Credo Chi-Rho.
+LOGO=/usr/share/icons/hicolor/scalable/apps/credo.svg
+if [ -f "$LOGO" ]; then
+  mkdir -p /usr/share/pixmaps
+  ln -sf "$LOGO" /usr/share/pixmaps/credo-logo.svg
+fi
+say "Done: Fedora's logos and names are replaced with Credo OS. Restart to see the boot screens."

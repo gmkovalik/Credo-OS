@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: la\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "@action:button"
+msgid "Mute"
+msgstr "Tace"
+
+msgctxt "@action:button"
+msgid "Unmute"
+msgstr "Sonum redde"
+
+msgctxt "@action:inmenu"
+msgid "Forget Recent Files"
+msgstr "Obliviscere fasciculos recentes"
+
+msgctxt "@option:check inmenu, no separate unmute action"
+msgid "Mute"
+msgstr "Tace"
+
+msgctxt "@title:group for section of menu items"
+msgid "Actions"
+msgstr "Actiones"
+
+msgctxt "@title:group for section of menu items"
+msgid "Places"
+msgstr "Loca"
+
+msgctxt "@title:group for section of menu items"
+msgid "Recent Files"
+msgstr "Fasciculi recentes"
+
+msgctxt "action:inmenu"
+msgid "&All Desktops"
+msgstr "&Omnes mensae"
+
+msgctxt "action:inmenu"
+msgid "Move to &Desktop"
+msgstr "Move ad &mensam"
+
+msgctxt "action:inmenu"
+msgid "Show in &Activities"
+msgstr "Ostende in &actionibus"
+
+msgctxt "action:inmenu"
+msgid "Unpin from Task Manager"
+msgstr "Solve a navali"
+
+msgctxt "item:inmenu opens submenu"
+msgid "More"
+msgstr "Plura"

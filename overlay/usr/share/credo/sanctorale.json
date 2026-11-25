@@ -1,0 +1,1142 @@
+{
+"01-01": {
+"en": "Circumcision of Our Lord",
+"la": "In Circumcisione Domini"
+},
+"01-02": {
+"en": "Octave of St. Stephen",
+"la": "In Octava S. Stephani Protomartyris"
+},
+"01-03": {
+"en": "Octave Day of St. John the Evangelist",
+"la": "In Octava S. Joannis Apostoli et Evangelistæ"
+},
+"01-04": {
+"en": "Octave Day of the Holy Innocents",
+"la": "In Octava Ss. Innocentium"
+},
+"01-05": {
+"en": "Vigil of the Epiphany",
+"la": "In Vigilia Epiphaniæ"
+},
+"01-06": {
+"en": "Epiphany of Our Lord",
+"la": "In Epiphania Domini"
+},
+"01-07": {
+"en": "Second Day of the Octave of the Epiphany",
+"la": "Secunda die infra Octavam Epiphaniæ"
+},
+"01-08": {
+"en": "Third Day of the Octave of the Epiphany",
+"la": "Tertia die infra Octavam Epiphaniæ"
+},
+"01-09": {
+"en": "Fourth Day of the Octave of the Epiphany",
+"la": "Quarta die infra Octavam Epiphaniæ"
+},
+"01-10": {
+"en": "Fifth Day of the Octave of the Epiphany",
+"la": "Quinta die infra Octavam Epiphaniæ"
+},
+"01-11": {
+"en": "Sixth Day of the Octave of the Epiphany",
+"la": "Sexta die infra Octavam Epiphaniæ"
+},
+"01-12": {
+"en": "Seventh Day of the Octave of the Epiphany",
+"la": "Septima die infra Octavam Epiphaniæ"
+},
+"01-13": {
+"en": "Octave Day of the Epiphany",
+"la": "Die Octava Epiphaniæ"
+},
+"01-14": {
+"en": "St. Hilary, Bishop of Poitiers, Confessor and Doctor of the Church",
+"la": "S. Hilarii Episcopi Confessoris Ecclesiæ Doctoris"
+},
+"01-15": {
+"en": "St. Paul the First Hermit, Confessor",
+"la": "S. Pauli Primi Eremitæ et Confessoris"
+},
+"01-16": {
+"en": "St. Marcellus, Pope and Martyr",
+"la": "S. Marcelli Papæ et Martyris"
+},
+"01-17": {
+"en": "S. Anthony, Abbot",
+"la": "S. Antonii Abbatis"
+},
+"01-18": {
+"en": "Chair of St. Peter at Rome",
+"la": "Cathedræ S. Petri Romæ"
+},
+"01-19": {
+"en": "Ss. Marius, Martha, Audifax, and Abachum, Martyrs",
+"la": "Ss. Marii, Marthæ, Audifacis, et Abachum Martyrum"
+},
+"01-20": {
+"en": "Ss. Fabian and Sebastian, Martyrs",
+"la": "Ss. Fabiani et Sebastiani Martyrum"
+},
+"01-21": {
+"en": "S. Agnes, Virgin and Martyr",
+"la": "S. Agnetis Virginis et Martyris"
+},
+"01-22": {
+"en": "Ss. Vincent and Anastasius, Martyrs",
+"la": "Ss. Vincentii et Anastasii Martyrum"
+},
+"01-23": {
+"en": "S. Raymond of Penafort, Confessor",
+"la": "S. Raymundi de Peñafort Confessoris"
+},
+"01-24": {
+"en": "St. Timothy, Bishop and Martyr",
+"la": "S. Timothei Episcopi et Martyris"
+},
+"01-25": {
+"en": "Conversion of St. Paul the Apostle",
+"la": "In Conversione S. Pauli Apostoli"
+},
+"01-26": {
+"en": "St. Polycarp, Bishop and Martyr",
+"la": "S. Polycarpi Episcopi et Martyris"
+},
+"01-27": {
+"en": "St. John Chrysostom, Bishop, Confessor, and Doctor of the Church",
+"la": "S. Joannis Chrysostomi Episcopi Confessoris et Ecclesiæ Doctoris"
+},
+"01-28": {
+"en": "St. Peter Nolasco, Confessor",
+"la": "S. Petri Nolasci Confessoris"
+},
+"01-29": {
+"en": "St. Francis de Sales, Bishop, Confessor, and Doctor of the Church",
+"la": "S. Francisci Salesii Episcopi Confessoris et Ecclesiæ Doctoris"
+},
+"01-30": {
+"en": "St. Martina, Virgin and Martyr",
+"la": "S. Martinæ Virginis et Martyris"
+},
+"01-31": {
+"en": "St. John Bosco, Confessor",
+"la": "S. Joannis Bosco Confessoris"
+},
+"02-01": {
+"en": "St. Ignatius, Bishop and Martyr",
+"la": "S. Ignatii Episcopi et Martyris"
+},
+"02-02": {
+"en": "Purification of the Blessed Virgin Mary",
+"la": "In Purificatione Beatæ Mariæ Virginis"
+},
+"02-03": {
+"en": "St. Blase, Bishop and Martyr",
+"la": "S. Blasii Episcopi et Martyris"
+},
+"02-04": {
+"en": "St. Andrew Corsini, Bishop and Confessor",
+"la": "S. Andreæ Corsini Episcopi et Confessoris"
+},
+"02-05": {
+"en": "St. Agatha, Virgin and Martyr",
+"la": "S. Agathæ Virginis et Martyris"
+},
+"02-06": {
+"en": "St. Titus, Bishop and Confessor",
+"la": "S. Titi Episcopi et Confessoris"
+},
+"02-07": {
+"en": "St. Romuald, Abbot",
+"la": "S. Romualdi Abbatis"
+},
+"02-08": {
+"en": "St. John of Matha, Confessor",
+"la": "S. Joannis de Matha Confessoris"
+},
+"02-09": {
+"en": "St. Cyril of Alexandria, Bishop, Confessor, and Doctor of the Church",
+"la": "S. Cyrilli Episc. Alexandrini Confessoris et Ecclesiæ Doctoris"
+},
+"02-10": {
+"en": "St. Scholastica, Virgin",
+"la": "S. Scholasticæ Virginis"
+},
+"02-11": {
+"en": "Apparition of the Blessed Virgin Mary Immaculate",
+"la": "In Apparitione Beatæ Mariæ Virginis"
+},
+"02-12": {
+"en": "Seven Holy Founders of the Order of the Servants of the Blessed Virgin Mary",
+"la": "Ss. Septem Fundatorum Ordinis Servorum B. M. V."
+},
+"02-14": {
+"en": "St. Valentine, Priest and Martyr",
+"la": "S. Valentini Presbyteri et Martyris"
+},
+"02-15": {
+"en": "Sts. Faustinus and Jovita, Martyrs",
+"la": "SS. Faustini et Jovitæ"
+},
+"02-18": {
+"en": "St. Simeon, Bishop and Martyr",
+"la": "S. Simeonis Episcopi et Martyris"
+},
+"02-22": {
+"en": "Chair of St. Peter at Antioch",
+"la": "In Cathedra S. Petri Apostoli Antiochiæ"
+},
+"02-24": {
+"en": "St. Matthias the Apostle",
+"la": "S. Matthiæ Apostoli"
+},
+"02-27": {
+"en": "St. Gabriel of the Sorrowful Virgin, Confessor",
+"la": "S. Gabrielis a Virgine Perdolente Confessoris"
+},
+"03-04": {
+"en": "St. Casimir, Confessor",
+"la": "S. Casimiri Confessoris"
+},
+"03-06": {
+"en": "Sts. Perpetua and Felicity, Martyrs",
+"la": "Ss. Perpetuæ et Felicitatis Martyrum"
+},
+"03-07": {
+"en": "St. Thomas Aquinas, Confessor and Doctor of the Church",
+"la": "S. Thomæ de Aquino Confessoris et Ecclesiæ Doctoris"
+},
+"03-08": {
+"en": "St. John of God, Confessor",
+"la": "S. Joannis de Deo Confessoris"
+},
+"03-09": {
+"en": "St. Frances of Rome, Widow",
+"la": "S. Franciscæ Romanæ Viduæ"
+},
+"03-10": {
+"en": "Forty Holy Martyrs",
+"la": "Ss. Quadraginta Martyrum"
+},
+"03-12": {
+"en": "S. Gregory the Great, Pope, Confessor and Doctor of the Church",
+"la": "S. Gregorii Papæ Confessoris et Ecclesiæ Doctoris"
+},
+"03-17": {
+"en": "St. Patrick, Bishop and Confessor",
+"la": "S. Patricii Episcopi et Confessoris"
+},
+"03-18": {
+"en": "St. Cyril of Jerusalem, Confessor and Doctor of the Church",
+"la": "S. Cyrilli Episcopi Hierosolymitani Confessoris et Ecclesiæ Doctoris"
+},
+"03-19": {
+"en": "St. Joseph, Spouse of the Blessed Virgin Mary, Confessor",
+"la": "S. Joseph Sponsi B.M.V. Confessoris"
+},
+"03-21": {
+"en": "St. Benedict, Abbot",
+"la": "S. Benedicti Abbatis"
+},
+"03-24": {
+"en": "St. Gabriel the Archangel",
+"la": "S. Gabrielis Archangeli"
+},
+"03-25": {
+"en": "Annunciation of the Blessed Virgin Mary",
+"la": "In Annuntiatione Beatæ Mariæ Virginis"
+},
+"03-27": {
+"en": "St. John Damascene, Confessor",
+"la": "S. Joannis Damasceni Confessoris et Ecclesiæ Doctoris"
+},
+"03-28": {
+"en": "St. John of Capistrano, Confessor",
+"la": "S. Joannis a Capistrano Confessoris"
+},
+"04-02": {
+"en": "St. Francis of Paula, Confessor",
+"la": "S. Francisci de Paula Confessoris"
+},
+"04-04": {
+"en": "S. Isidore of Seville, Bishop, Confessor and Doctor of the Church",
+"la": "S. Isidori Episcopi Confessoris et Ecclesiæ Doctoris"
+},
+"04-05": {
+"en": "St. Vincent Ferrer, Confessor",
+"la": "S. Vincentii Ferrerii Confessoris"
+},
+"04-11": {
+"en": "St. Leo the Great, Pope, Confessor and Doctor of the Church",
+"la": "S. Leonis I Papæ Confessoris et Ecclesiæ Doctoris"
+},
+"04-13": {
+"en": "St. Hermenegild, Martyr",
+"la": "S. Hermenegildi Martyris"
+},
+"04-14": {
+"en": "St. Justin, Martyr",
+"la": "S. Justini Martyris"
+},
+"04-17": {
+"en": "St. Anicetus, Pope and Martyr",
+"la": "S. Aniceti Papæ et Martyris"
+},
+"04-21": {
+"en": "St. Anselm, Bishop, Confessor and Doctor of the Church",
+"la": "S. Anselmi Episcopi Confessoris et Ecclesiæ Doctoris"
+},
+"04-22": {
+"en": "Sts. Soter and Caius, Popes and Martyrs",
+"la": "SS. Soteris et Caji Summorum Pontificum et Martyrum"
+},
+"04-23": {
+"en": "St. George, Martyr",
+"la": "S. Georgii Martyris"
+},
+"04-24": {
+"en": "St. Fidelis of Sigmaringen, Martyr",
+"la": "S. Fidelis de Sigmaringa Martyris"
+},
+"04-25": {
+"en": "St. Mark the Evangelist",
+"la": "S. Marci Evangelistæ"
+},
+"04-26": {
+"en": "Sts. Cletus and Marcellinus, Popes and Martyrs",
+"la": "SS. Cleti et Marcellini Summorum Pontificum et Martyrum"
+},
+"04-27": {
+"en": "St. Peter Canisius, Confessor and Doctor of the Church",
+"la": "S. Petri Canisii Confessoris et Ecclesiæ Doctoris"
+},
+"04-28": {
+"en": "St. Paul of the Cross, Confessor",
+"la": "S. Pauli a Cruce Confessoris"
+},
+"04-29": {
+"en": "St. Peter the Martyr",
+"la": "S. Petri Martyris"
+},
+"04-30": {
+"en": "St. Catherine of Siena, Virgin",
+"la": "S. Catharinæ Senensis Virginis"
+},
+"05-01": {
+"en": "Sts. Philip and James, Apostles",
+"la": "Ss. Philippi et Jacobi Apostolorum"
+},
+"05-02": {
+"en": "S. Athanasius, Confessor and Doctor of the Church",
+"la": "S. Athanasii Episcopi Confessoris et Ecclesiæ Doctoris"
+},
+"05-03": {
+"en": "Finding of the Holy Cross",
+"la": "Inventione Sanctæ Crucis"
+},
+"05-04": {
+"en": "St. Monica, Widow",
+"la": "S. Monicæ Viduæ"
+},
+"05-05": {
+"en": "St. Pius V, Pope and Confessor",
+"la": "S. Pii V Papæ et Confessoris"
+},
+"05-06": {
+"en": "St. John the Apostle Before the Latin Gate",
+"la": "S. Joannis Apostoli ante Portam Latinam"
+},
+"05-07": {
+"en": "St. Stanislaus, Bishop and Martyr",
+"la": "S. Stanislai Episcopi et Martyris"
+},
+"05-08": {
+"en": "Apparition of St. Michael the Archangel",
+"la": "In Apparitione S. Michaëlis Archangeli"
+},
+"05-09": {
+"en": "St. Gregory Nazianzen, Bishop, Confessor and Doctor of the Church",
+"la": "S. Gregorii Nazianzeni Episcopi Confessoris et Ecclesiæ Doctoris"
+},
+"05-10": {
+"en": "St. Antoninus, Bishop and Confessor",
+"la": "S. Antonini Episcopi et Confessoris"
+},
+"05-12": {
+"en": "Ss. Nereus, Achilleus and Domitilla the Virgin and Pancras, Martyrs",
+"la": "Ss. Nerei, Achillei et Domitillæ Virg. atque Pancratii Martyrum"
+},
+"05-13": {
+"en": "St. Robert Bellarmine, Bishop, Confessor and Doctor of the Church",
+"la": "S. Roberti Bellarmino Episcopi Confessoris et Ecclesiæ Doctoris"
+},
+"05-14": {
+"en": "St. Boniface, Martyr",
+"la": "S. Bonifatii Martyris"
+},
+"05-15": {
+"en": "St. John Baptist de la Salle, Confessor",
+"la": "S. Joannis Baptistæ de la Salle Confessoris"
+},
+"05-16": {
+"en": "St. Ubald, Bishop and Confessor",
+"la": "S. Ubaldi Episcopi et Confessoris"
+},
+"05-17": {
+"en": "St. Pascal Baylon Confessor",
+"la": "S. Paschalis Baylon Confessoris"
+},
+"05-18": {
+"en": "St. Venantius, Martyr",
+"la": "S. Venantii Martyris"
+},
+"05-19": {
+"en": "St. Peter Celestine, Pope and Confessor",
+"la": "S. Petri Celestini Papæ et Confessoris"
+},
+"05-20": {
+"en": "St. Bernardine of Siena, Confessor",
+"la": "S. Bernardini Senensis Confessoris"
+},
+"05-23": {
+"en": "St. John Baptist de Rossi Confessor",
+"la": "S. Joannis Baptistæ de Rossi Confessoris"
+},
+"05-25": {
+"en": "St. Gregory VII, Pope and Confessor",
+"la": "S. Gregorii VII Papæ et Confessoris"
+},
+"05-26": {
+"en": "St. Philip Neri, Confessor",
+"la": "S. Philippi Neri Confessoris"
+},
+"05-27": {
+"en": "St. Bede the Venerable, Confessor and Doctor of the Church",
+"la": "S. Bedæ Venerabilis Confessoris et Ecclesiæ Doctoris"
+},
+"05-28": {
+"en": "St. Augustine of Canterbury, Bishop and Confessor",
+"la": "S. Augustini Episcopi et Confessoris"
+},
+"05-29": {
+"en": "St. Mary Magdalene de Pazzi, Virgin",
+"la": "S. Mariæ Magdalenæ de Pazzis Virginis"
+},
+"05-30": {
+"en": "St. Felix, Pope and Martyr",
+"la": "S. Felicis I Papæ et Martyris"
+},
+"05-31": {
+"en": "Blessed Virgin Mary, Queen",
+"la": "Beatæ Mariæ Virginis Reginæ"
+},
+"06-01": {
+"en": "St. Angela Merici, Virgin",
+"la": "S. Angelæ Mericiæ Virginis"
+},
+"06-02": {
+"en": "Sts. Marcellinus, Peter, and Erasmus, Martyrs",
+"la": "Ss. Marcellini, Petri, atque Erasmi, Episcopi, Martyrum"
+},
+"06-04": {
+"en": "St. Francis Caracciolo, Confessor",
+"la": "S. Francisci Caracciolo Confessoris"
+},
+"06-05": {
+"en": "St. Boniface, Bishop and Martyr",
+"la": "S. Bonifatii Episcopi et Martyris"
+},
+"06-06": {
+"en": "St. Norbert, Bishop and Confessor",
+"la": "S. Norberti Episcopi et Confessoris"
+},
+"06-09": {
+"en": "Sts. Primus and Felician, Martyrs",
+"la": "Ss. Primi et Feliciani Martyrum"
+},
+"06-10": {
+"en": "St. Margaret, Queen and Widow",
+"la": "S. Margaritæ Reginæ Viduæ"
+},
+"06-11": {
+"en": "St. Barnabas the Apostle",
+"la": "S. Barnabæ Apostoli"
+},
+"06-12": {
+"en": "St. John of St. Facundus, Confessor",
+"la": "S. Joannis a S. Facundo Confessoris"
+},
+"06-13": {
+"en": "St. Anthony of Padua, Confessor",
+"la": "S. Antonii de Padua Confessoris"
+},
+"06-14": {
+"en": "St. Basil the Great, Confessor and Doctor of the Church",
+"la": "S. Basilii Magni Confessoris et Ecclesiæ Doctoris"
+},
+"06-15": {
+"en": "Sts. Vitus, Modestus and Crescentia, Martyrs",
+"la": "Ss. Viti, Modesti atque Crescentiæ Martyrum"
+},
+"06-18": {
+"en": "St. Ephraem of Syria, Confessor and Doctor of the Church",
+"la": "S. Ephræm Syri Confessoris et Ecclesiæ Doctoris"
+},
+"06-19": {
+"en": "St. Juliana Falconeri, Virgin",
+"la": "S. Julianæ de Falconeriis Virginis"
+},
+"06-20": {
+"en": "St. Silverius, Pope and Martyr",
+"la": "S. Silverii Papæ et Martyris"
+},
+"06-21": {
+"en": "St. Aloysius Gonzaga, Confessor",
+"la": "S. Aloisii Gonzagæ Confessoris"
+},
+"06-22": {
+"en": "St. Paulinus of Nola, Bishop and Confessor",
+"la": "S. Paulini Episcopi et Confessoris"
+},
+"06-23": {
+"en": "Vigil of the Nativity of St. John the Baptist",
+"la": "In Vigilia S. Joannis Baptistæ"
+},
+"06-24": {
+"en": "Nativity of St. John the Baptist",
+"la": "In Nativitate S. Joannis Baptistæ"
+},
+"06-25": {
+"en": "St. William, Abbot",
+"la": "S. Gulielmi Abbatis"
+},
+"06-26": {
+"en": "Sts. John and Paul, Martyrs",
+"la": "Ss. Joannis et Pauli Martyrum"
+},
+"06-28": {
+"en": "St. Irenaeus, Bishop and Martyr",
+"la": "S. Irenæi Episcopi et Martyris"
+},
+"06-29": {
+"en": "Sts. Peter and Paul, Apostles",
+"la": "SS. Apostolorum Petri et Pauli"
+},
+"06-30": {
+"en": "Commemoration of St. Paul the Apostle",
+"la": "In Commemoratione S. Pauli Apostoli"
+},
+"07-01": {
+"en": "Most Precious Blood of Our Lord Jesus Christ",
+"la": "Pretiosissimi Sanguinis Domini Nostri Jesu Christi"
+},
+"07-02": {
+"en": "Visitation of the Blessed Virgin Mary",
+"la": "In Visitatione B. Mariæ Virginis"
+},
+"07-03": {
+"en": "St. Leo II, Pope and Confessor",
+"la": "S. Leonis Papæ et Confessoris"
+},
+"07-05": {
+"en": "St. Anthony Mary Zaccaria, Confessor",
+"la": "S. Antonii Mariæ Zaccaria Confessoris"
+},
+"07-06": {
+"en": "Octave of Sts. Peter and Paul",
+"la": "In Octava Ss. Apostolorum Petri et Pauli"
+},
+"07-07": {
+"en": "Sts. Cyril and Methodius, Bishops and Confessors",
+"la": "Ss. Cyrilli et Methodii Pont. et Conf."
+},
+"07-08": {
+"en": "St. Elizabeth of Portugal, Queen and Widow",
+"la": "S. Elisabeth Reg. Portugaliæ Viduæ"
+},
+"07-10": {
+"en": "Seven Brothers, Martyrs, and Sts. Rufina and Secunda, Virgins and Martyrs",
+"la": "Ss. Septem Fratrum Martyrum, ac Rufinæ et Secundæ Virginum et Martyrum"
+},
+"07-11": {
+"en": "St. Pius I, Pope and Martyr",
+"la": "S. Pii I Papæ et Martyris"
+},
+"07-12": {
+"en": "St. John Gualbert, Abbot",
+"la": "S. Joannis Gualberti Abbatis"
+},
+"07-13": {
+"en": "St. Anacletus, Pope and Martyr",
+"la": "S. Anacleti Papæ et Martyris"
+},
+"07-14": {
+"en": "St. Bonaventure, Bishop, Confessor and Doctor of the Church",
+"la": "S. Bonaventuræ Episcopi Confessoris et Ecclesiæ Doctoris"
+},
+"07-15": {
+"en": "St. Henry the Emperor, Confessor",
+"la": "S. Henrici Imperatoris Confessoris"
+},
+"07-16": {
+"en": "Commemoration of the Blessed Virgin Mary of Mount Carmel",
+"la": "Beatæ Mariæ Virginis de Monte Carmelo"
+},
+"07-17": {
+"en": "St. Alexis, Confessor",
+"la": "S. Alexii Confessoris"
+},
+"07-18": {
+"en": "St. Camillus de Lellis, Confessor",
+"la": "S. Camilli de Lellis Confessoris"
+},
+"07-19": {
+"en": "St. Vincent de Paul, Confessor",
+"la": "S. Vincentii a Paulo Confessoris"
+},
+"07-20": {
+"en": "St. Jerome Emiliani, Confessor",
+"la": "S. Hieronymi Æmiliani Confessoris"
+},
+"07-21": {
+"en": "St. Praxedes, Virgin",
+"la": "S. Praxedis Virginis"
+},
+"07-22": {
+"en": "St. Mary Magdalene, Penitent",
+"la": "S. Mariæ Magdalenæ Pœnitentis"
+},
+"07-23": {
+"en": "St. Apollinaris, Bishop and Martyr",
+"la": "S. Apollinaris Episcopi et Martyris"
+},
+"07-24": {
+"en": "Vigil of St. James the Apostle",
+"la": "In Vigilia S. Jacobi Ap."
+},
+"07-25": {
+"en": "St. James the Apostle",
+"la": "S. Jacobi Apostoli"
+},
+"07-26": {
+"en": "St. Anne, Mother of the Blessed Virgin Mary",
+"la": "S. Annæ Matris B.M.V."
+},
+"07-27": {
+"en": "St. Pantaleon, Martyr",
+"la": "S. Pantaleonis Martyris"
+},
+"07-28": {
+"en": "Sts. Nazarius and Celsus, Martyr, Pope Victor I, Martyr, and Pope Innocent I, Confessor",
+"la": "Ss. Nazarii et Celsi Martyrum, Victoris I Papæ et Martyris ac Innocentii I Papæ et Confessoris"
+},
+"07-29": {
+"en": "St. Martha, Virgin",
+"la": "S. Marthæ Virginis"
+},
+"07-30": {
+"en": "St. Abdon and Sennen, Martyr",
+"la": "Ss. Abdon et Sennen Martyrum"
+},
+"07-31": {
+"en": "St. Ignatius of Loyola, Confessor",
+"la": "S. Ignatii Confessoris"
+},
+"08-01": {
+"en": "St. Peter in Chains",
+"la": "S. Petri ad Vincula"
+},
+"08-02": {
+"en": "St. Alphonsus Liguori, Bishop, Confessor and Doctor of the Church",
+"la": "S. Alfonsi Mariæ de Ligorio Episc. Conf. et Eccles. Doct."
+},
+"08-03": {
+"en": "Finding of St. Stephen the First Martyr",
+"la": "De Inventione S. Stephani Protomartyris"
+},
+"08-04": {
+"en": "St. Dominic the Confessor",
+"la": "S. Dominici Confessoris"
+},
+"08-05": {
+"en": "Dedication of St. Mary of the Snows",
+"la": "S. Mariæ ad Nives"
+},
+"08-06": {
+"en": "Transfiguration of Our Lord Jesus Christ",
+"la": "In Transfiguratione Domini Nostri Jesu Christi"
+},
+"08-07": {
+"en": "St. Cajetan, Confessor",
+"la": "S. Cajetani Confessoris"
+},
+"08-08": {
+"en": "Sts. Cyriacus, Largus and Smaragdus, Martyrs",
+"la": "Ss. Cyriaci, Largi et Smaragdi Martyrum"
+},
+"08-09": {
+"en": "St. Jean-Marie Vianney, Confessor",
+"la": "S. Joannis Mariæ Vianney Confessoris"
+},
+"08-10": {
+"en": "St. Lawrence, Martyr",
+"la": "S. Laurentii Martyris"
+},
+"08-11": {
+"en": "Sts. Tiburtius and Susanna, Martyrs",
+"la": "Ss. Tiburtii et Susannæ Virginis, Martyrum"
+},
+"08-12": {
+"en": "St. Clare, Virgin",
+"la": "S. Claræ Virginis"
+},
+"08-13": {
+"en": "Sts. Hippolytus and Cassian, Martyrs",
+"la": "Ss. Hippolyti et Cassiani Martyrum"
+},
+"08-14": {
+"en": "Vigil of the Assumption of the Blessed Virgin Mary",
+"la": "In Vigilia Assumptionis B.M.V."
+},
+"08-15": {
+"en": "Assumption of the Blessed Virgin Mary",
+"la": "In Assumptione Beatæ Mariæ Virginis"
+},
+"08-16": {
+"en": "St. Joachim, Confessor, Father of the Blessed Virgin Mary",
+"la": "S. Joachim Confessoris, Patris B. M. V."
+},
+"08-17": {
+"en": "St. Hyacinth, Confessor",
+"la": "S. Hyacinthi Confessoris"
+},
+"08-19": {
+"en": "St. John Eudes, Confessor",
+"la": "S. Joannis Eudes Confessoris"
+},
+"08-20": {
+"en": "St. Bernard of Clairvaux, Abbot and Doctor of the Church",
+"la": "S. Bernardi Abbatis et Ecclesiæ Doctoris"
+},
+"08-21": {
+"en": "St. Jeanne-Françoise Frémiot de Chantal, Widow;Duplex",
+"la": "S. Joannæ Franciscæ Frémiot de Chantal Viduæ"
+},
+"08-22": {
+"en": "Immaculate Heart of the Blessed Virgin Mary",
+"la": "Immaculati Cordis Beatæ Mariæ Virginis"
+},
+"08-23": {
+"en": "St. Philip Benizi, Confessor",
+"la": "S. Philippi Benitii Confessoris"
+},
+"08-24": {
+"en": "St. Bartholomew the Apostle",
+"la": "S. Bartholomæi Apostoli"
+},
+"08-25": {
+"en": "St. Louis, Confessor",
+"la": "S. Ludovici Regis Franciæ Confessoris"
+},
+"08-26": {
+"en": "St. Zephyrinus, Pope and Martyr",
+"la": "S. Zephyrini Papæ et Martyris"
+},
+"08-27": {
+"en": "St. Joseph Calasanz, Confessor",
+"la": "S. Josephi Calasanctii Confessoris"
+},
+"08-28": {
+"en": "St. Augustine of Hippo, Bishop, Confessor, and Doctor of the Church",
+"la": "S. Augustini Episcopi et Confessoris et Ecclesiæ Doctoris"
+},
+"08-29": {
+"en": "Beheading of St. John the Baptist",
+"la": "In Decollatione S. Joannis Baptistæ"
+},
+"08-30": {
+"en": "St. Rose of Lima, Virgin",
+"la": "S. Rosæ a Sancta Maria Limange Virginis"
+},
+"08-31": {
+"en": "St. Raymond Nonnatus, Confessor",
+"la": "S. Raymundi Nonnati Confessoris"
+},
+"09-01": {
+"en": "St. Giles, Abbot",
+"la": "S. Ægidii Abbatis"
+},
+"09-02": {
+"en": "St. Stephen, King of Hungary, Confessor",
+"la": "S. Stephani Hungariæ Regis Confessoris"
+},
+"09-03": {
+"en": "St. Pius X, Pope and Confessor",
+"la": "S. Pii X Papæ Confessoris"
+},
+"09-05": {
+"en": "St. Lawrence Justinian, Bishop and Confessor",
+"la": "S. Laurentii Justiniani Episcopi et Confessoris"
+},
+"09-08": {
+"en": "Nativity of the Blessed Virgin Mary",
+"la": "Nativitate Beatæ Mariæ Virginis"
+},
+"09-09": {
+"en": "S. Gorgonius, Martyr",
+"la": "S. Gorgonii Martyris"
+},
+"09-10": {
+"en": "St. Nicholas of Tolentino Confessor",
+"la": "S. Nicolai de Tolentino Confessoris"
+},
+"09-11": {
+"en": "Sts. Protus and Hyacinth Martyrs",
+"la": "Ss. Proti et Hyacinthi Martyrum"
+},
+"09-12": {
+"en": "Holy Name of the Blessed Virgin Mary",
+"la": "S. Nominis Beatæ Mariæ Virginis"
+},
+"09-14": {
+"en": "Exaltation of the Holy Cross",
+"la": "In Exaltatione Sanctæ Crucis"
+},
+"09-15": {
+"en": "Seven Sorrows of the Blessed Virgin Mary",
+"la": "Septem Dolorum Beatæ Mariæ Virginis"
+},
+"09-16": {
+"en": "Sts. Cornelius, Pope and Cyprian, Bishop, Martyrs",
+"la": "Ss. Cornelii Papæ et Cypriani Episcopi, Martyrum"
+},
+"09-17": {
+"en": "Impression of the Stigmata of St. Francis",
+"la": "Impressionis Stigmatum S. Francisci"
+},
+"09-18": {
+"en": "St. Joseph of Cupertino Confessor",
+"la": "S. Josephi de Cupertino Confessoris"
+},
+"09-19": {
+"en": "St. Januarius, Bishop and Companions, Martyrs",
+"la": "S. Januarii Episcopi et Sociorum Martyrum"
+},
+"09-20": {
+"en": "S. Eustachius and Companions, Martyrs",
+"la": "Ss. Eustachii et Sociorum Martyrum"
+},
+"09-21": {
+"en": "St. Matthew, Apostle and Evangelist",
+"la": "S. Matthæi Apostoli et Evangelistæ"
+},
+"09-22": {
+"en": "St. Thomas of Villanova, Bishop and Confessor",
+"la": "S. Thomæ de Villanova Episcopi et Confessoris"
+},
+"09-23": {
+"en": "St. Linus, Pope and Martyr",
+"la": "S. Lini Papæ et Martyris"
+},
+"09-24": {
+"en": "Our Lady of Ransom",
+"la": "Beatæ Mariæ Virginis de Mercede"
+},
+"09-26": {
+"en": "Sts. Cyprian and Justina, Martyrs",
+"la": "Ss. Cypriani et Justinæ Virginis, Martyrum"
+},
+"09-27": {
+"en": "Sts. Cosmas and Damian, Martyrs",
+"la": "Ss. Cosmæ et Damiani Martyrum"
+},
+"09-28": {
+"en": "St. Wenceslaus, Duke and Martyr",
+"la": "S. Wenceslai Ducis et Martyris"
+},
+"09-29": {
+"en": "Dedication of the Archbasilica of St. Michael the Archangel",
+"la": "In Dedicatione S. Michaëlis Archangelis"
+},
+"09-30": {
+"en": "St. Jerome, Priest, Confessor and Doctor of the Church",
+"la": "S. Hieronymi Presbyteris Confessoris et Ecclesiæ Doctoris"
+},
+"10-01": {
+"en": "St. Remigius, Bishop and Confessor",
+"la": "S. Remigii Episcopi et Confessoris"
+},
+"10-02": {
+"en": "Guardian Angels",
+"la": "Ss. Angelorum Custodum"
+},
+"10-03": {
+"en": "St. Thérèse of the Child Jesus, Virgin",
+"la": "S. Theresiæ a Jesu Infante Virginis"
+},
+"10-04": {
+"en": "St. Francis of Assisi, Confessor",
+"la": "S. Francisci Confessoris"
+},
+"10-05": {
+"en": "Sts. Placidus and Companions Martyrs",
+"la": "Ss. Placidi et Sociorum Martyrum"
+},
+"10-06": {
+"en": "St. Bruno, Confessor",
+"la": "S. Brunonis Confessoris"
+},
+"10-07": {
+"en": "Our Lady of the Rosary",
+"la": "Sanctissimi Rosarii Beatæ Mariæ Virginis"
+},
+"10-08": {
+"en": "St. Birgitta, Widow",
+"la": "S. Birgittæ Viduæ"
+},
+"10-09": {
+"en": "St. John Leonard, Confessor",
+"la": "S. Joannis Leonardi Confessoris"
+},
+"10-10": {
+"en": "St. Francis Borgia, Confessor",
+"la": "S. Francisci Borgiæ Confessoris"
+},
+"10-11": {
+"en": "Maternity of the Blessed Virgin Mary",
+"la": "Maternitatis Beatæ Mariæ Virginis"
+},
+"10-13": {
+"en": "St. Edward the Confessor, King",
+"la": "S. Eduardi Regis Confessoris"
+},
+"10-14": {
+"en": "St. Callistus, Pope and Martyr",
+"la": "S. Callisti Papæ et Martyris"
+},
+"10-15": {
+"en": "St. Teresa of Avila, Virgin",
+"la": "S. Teresiæ Virginis"
+},
+"10-16": {
+"en": "St. Hedwig, Widow",
+"la": "S. Hedwigis Viduæ"
+},
+"10-17": {
+"en": "St. Marguerite-Marie Alacoque, Virgin",
+"la": "S. Margaritæ Mariæ Alaquoque Virginis"
+},
+"10-18": {
+"en": "St. Luke the Evangelist",
+"la": "S. Lucæ Evangelistæ"
+},
+"10-19": {
+"en": "St. Peter of Alcantara, Confessor",
+"la": "S. Petri de Alcantara Confessoris"
+},
+"10-20": {
+"en": "St. John Cantius, Confessor",
+"la": "S. Joannis Cantii Confessoris"
+},
+"10-21": {
+"en": "St. Hilarion, Abbot",
+"la": "S. Hilarionis Abbatis"
+},
+"10-24": {
+"en": "St. Raphael the Archangel;Duplex majus",
+"la": "S. Raphaëlis Archangeli"
+},
+"10-25": {
+"en": "Sts. Chrysanthus and Daria, Martyrs",
+"la": "Ss. Chrysanthi et Dariæ Martyrum"
+},
+"10-26": {
+"en": "St. Evaristus, Pope and Martyr",
+"la": "S. Evaristi Papæ et Martyris"
+},
+"10-27": {
+"en": "Vigil of Sts. Simon and Jude, Apostles",
+"la": "In Vigilia Ss. Simonis et Judæ Ap."
+},
+"10-28": {
+"en": "Sts. Simon and Jude, Apostles",
+"la": "Ss. Simonis et Judæ Apostolorum"
+},
+"10-31": {
+"en": "Vigil of All Saints",
+"la": "In Vigilia Omnium Sanctorum"
+},
+"11-01": {
+"en": "All Saints",
+"la": "Omnium Sanctorum"
+},
+"11-02": {
+"en": "All Souls",
+"la": "In Commemoratione Omnium Fidelium Defunctorum"
+},
+"11-04": {
+"en": "St. Charles Borromeo, Bishop and Confessor",
+"la": "S. Caroli Episcopi et Confessoris"
+},
+"11-08": {
+"en": "Octave of All Saints",
+"la": "In Octava Omnium Sanctorum"
+},
+"11-09": {
+"en": "Dedication of the Lateran Basilica of Our Savior",
+"la": "In Dedicatione Basilicæ Ss. Salvatoris"
+},
+"11-10": {
+"en": "St. Andrew Avellino Confessor",
+"la": "S. Andreæ Avellini Confessoris"
+},
+"11-11": {
+"en": "St. Martin, Bishop of Tours, Confessor",
+"la": "S. Martini Episcopi et Confessoris"
+},
+"11-12": {
+"en": "St. Martin I, Pope and Martyr",
+"la": "S. Martini Papæ et Martyris"
+},
+"11-13": {
+"en": "St. Didacus, Confessor",
+"la": "S. Didaci Confessoris"
+},
+"11-14": {
+"en": "St. Josaphat, Bishop and Martyr",
+"la": "S. Josaphat Episcopi et Martyris"
+},
+"11-15": {
+"en": "St. Albert the Great, Bishop, Confessor and Doctor of the Church",
+"la": "S. Alberti Magni Episcopi Confessoris et Ecclesiæ Doctoris"
+},
+"11-16": {
+"en": "St. Gertrude, Virgin",
+"la": "S. Gertrudis Virginis"
+},
+"11-17": {
+"en": "St. Gregory the Wonderworker, Bishop and Confessor",
+"la": "S. Gregorii Thaumaturgi Episcopi et Confessoris"
+},
+"11-18": {
+"en": "Dedication of the Basilicas of the Holy Apostles Peter and Paul",
+"la": "In Dedicatione Basilicarum Ss. Apostolorum Petri et Pauli"
+},
+"11-19": {
+"en": "St. Elizabeth, Widow",
+"la": "S. Elisabeth Viduæ"
+},
+"11-20": {
+"en": "St. Felix de Valois, Confessor",
+"la": "S. Felicis de Valois Confessoris"
+},
+"11-21": {
+"en": "Presentation of the Blessed Virgin Mary",
+"la": "In Presentatione Beatæ Mariæ Virginis"
+},
+"11-22": {
+"en": "St. Cecilia, Virgin and Martyr",
+"la": "S. Cæciliæ Virginis et Martyris"
+},
+"11-23": {
+"en": "St. Clement, Pope and Martyr",
+"la": "S. Clementis Papæ et Martyris"
+},
+"11-24": {
+"en": "St. John of the Cross, Confessor and Doctor of the Church",
+"la": "S. Joannis a Cruce Confessoris et Ecclesiæ Doctoris"
+},
+"11-25": {
+"en": "St. Catharine of Alexandria, Virgin and Martyr",
+"la": "S. Catharinæ Virginis et Martyris"
+},
+"11-26": {
+"en": "St. Sylvester, Abbot",
+"la": "S. Silvestri Abbatis"
+},
+"11-29": {
+"en": "Vigil of St. Andrew the Apostle",
+"la": "In Vigilia S. Andreæ Apostoli"
+},
+"11-30": {
+"en": "St. Andrew the Apostle",
+"la": "S. Andreæ Apostoli"
+},
+"12-02": {
+"en": "St. Bibiana, Virgin and Martyr",
+"la": "S. Bibianæ Virginis et Martyris"
+},
+"12-03": {
+"en": "St. Francis Xavier, Confessor",
+"la": "S. Francisci Xaverii Confessoris"
+},
+"12-04": {
+"en": "St. Peter Chrysologus, Bishop, Confessor and Doctor of the Church",
+"la": "S. Petri Chrysologi Episcopi Confessoris et Ecclesiæ Doctoris"
+},
+"12-05": {
+"en": "St. Sabbas, Abbot",
+"la": "S. Sabbæ Abbatis"
+},
+"12-06": {
+"en": "St. Nicholas, Bishop and Confessor",
+"la": "S. Nicolai Episcopi et Confessoris"
+},
+"12-07": {
+"en": "St. Ambrose, Bishop, Confessor and Doctor of the Church",
+"la": "S. Ambrosii Episcopi Confessoris et Ecclesiæ Doctoris"
+},
+"12-08": {
+"en": "Immaculate Conception of the Blessed Virgin Mary",
+"la": "In Conceptione Immaculata Beatæ Mariæ Virginis"
+},
+"12-11": {
+"en": "St. Damasus, Pope and Confessor",
+"la": "S. Damasi Papæ et Confessoris"
+},
+"12-13": {
+"en": "St. Lucy, Virgin and Martyr",
+"la": "S. Luciæ Virginis et Martyris"
+},
+"12-15": {
+"en": "Octave of the Immaculate Conception of the Blessed Virgin Mary",
+"la": "In Octava Immaculatæ Concept. Beatæ Mariæ Virginis"
+},
+"12-16": {
+"en": "St. Eusebius, Bishop and Martyr",
+"la": "S. Eusebii Episcopi et Martyris"
+},
+"12-21": {
+"en": "St. Thomas the Apostle",
+"la": "S. Thomæ Apostoli"
+},
+"12-24": {
+"en": "Christmas Eve",
+"la": "In Vigilia Nativitatis Domini"
+},
+"12-25": {
+"en": "Nativity of Our Lord Jesus Christ",
+"la": "In Nativitate Domini"
+},
+"12-26": {
+"en": "St. Stephen the First Martyr",
+"la": "S. Stephani Protomartyris"
+},
+"12-27": {
+"en": "St. John the Apostle, Evangelist",
+"la": "S. Joannis Apostoli et Evangelistæ"
+},
+"12-28": {
+"en": "Holy Innocents",
+"la": "Ss. Innocentium"
+},
+"12-29": {
+"en": "St. Thomas of Canterbury, Bishop and Martyr",
+"la": "S. Thomæ Cantuariensis Episcopi et Martyris"
+},
+"12-31": {
+"en": "St. Sylvester, Pope and Confessor",
+"la": "S. Silvestri Papæ et Confessoris"
+}
+}

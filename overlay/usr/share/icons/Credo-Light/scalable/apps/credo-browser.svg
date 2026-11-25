@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Credo icon theme: credo-browser -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#204579"/><stop offset="1" stop-color="#204579"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b44f"/><stop offset="1" stop-color="#d9b44f"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eceef2"/><stop offset="1" stop-color="#eceef2"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    
+  </defs>
+  <rect x="50" y="62" width="412" height="412" rx="94" fill="#000" fill-opacity="0.22"/>
+  <rect x="50" y="46" width="412" height="412" rx="94" fill="url(#bg)"/>
+  
+  <circle cx="256" cy="282" r="128" fill="none" stroke="url(#gold)" stroke-width="20"/>
+  <path d="M128 282 H384 M256 154 V410" stroke="url(#gold)" stroke-width="18"/>
+  <ellipse cx="256" cy="282" rx="62" ry="128" fill="none" stroke="#f6dc86" stroke-opacity="0.55" stroke-width="7"/>
+  <path d="M146 222 H366 M146 342 H366" stroke="#f6dc86" stroke-opacity="0.55" stroke-width="7"/>
+  <rect x="246" y="64" width="20" height="96" rx="4" fill="url(#gold)"/><rect x="221" y="80.9" width="70" height="20" rx="4" fill="url(#gold)"/>
+</svg>
